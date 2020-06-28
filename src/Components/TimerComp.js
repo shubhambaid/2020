@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "./components.css";
-import "fdweb/fluent-icons.css"
+// import "fdweb/fluent-icons.css"
 import { NavLink } from "react-router-dom";
 
 class Timer extends Component{
