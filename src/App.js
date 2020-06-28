@@ -15,7 +15,7 @@ class App extends Component{
         <Topnav />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/timer" component={Timer} />
+          <Route path="/timer" component={Timer} />
           
         </Switch>
       </Router>

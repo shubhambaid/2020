@@ -24,7 +24,7 @@ class Timer extends Component{
                         <h1 className="ta_center">1</h1>
                         <p className="ta_center">Seconds</p>
                     </div>
-                    <div className="column large12 medium12 small12"><br /><br /><br /><br />
+                    <div className="column large3 medium6 small12 center"><br /><br /><br /><br />
                         <NavLink className="backlink ta_center" to="/">Head Back In</NavLink>
                     </div>
                 </div>
