@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import "fdweb/fluent.css";
 import "fdweb/fluent.js";
+import "./App.css";
 
 import {HashRouter as Router, Switch, Route} from "react-router-dom";
 
