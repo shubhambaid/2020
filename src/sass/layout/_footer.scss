@@ -1,78 +1,90 @@
-.footer {
-    background-color: $color-grey-dark-3;
-    padding: 10rem 0;
-    font-size: 1.4rem;
-    color: $color-grey-light-1;
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
 
-    @include respond(tab-port) {
-        padding: 8rem 0;
+
+footer {
+    background-color:$color-primary-dark;
+    padding: 50px;
+    font-size: 2rem;
+    img {
+        height: 2.2rem;
     }
-
-    &__logo-box {
-        text-align: center;
-        margin-bottom: 8rem;
-
-        @include respond(tab-port) {
-            margin-bottom: 6rem;
-        }
+    
+    align-content: center;
+    text-align: center;
+    .col-1-of-2{
+        object-fit: center;
     }
+}
 
-    &__logo {
-        width: 15rem;
-        height: auto;
-    }
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+.social-links {
+    list-style: none;
+    // float: right;
+    
+}
 
-    &__navigation {
-        border-top: 1px solid $color-grey-dark;
-        padding-top: 2rem;
-        display: inline-block;
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
 
-        @include respond(tab-port) {
-            width: 100%;
-            text-align: center;
-        }
-    }
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
 
-    &__list {
-        list-style: none;
-    }
+.footer-nav li a:link,
+.footer-nav li a:visited,
+p a:link, p a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
 
-    &__item {
-        display: inline-block;
+.footer-nav li a:hover,
+p a:hover, p a:active,
+.footer-nav li a:active {
+    color: #ddd;
+}
 
-        &:not(:last-child) {
-            margin-right: 1.5rem;
-        }
-    }
+.social-links li a:link,
+.social-links li a:visited {
+   
+}
 
-    &__link {
-        &:link,
-        &:visited {
-            color: $color-grey-light-1;
-            background-color: $color-grey-dark-3;
-            text-decoration: none;
-            text-transform: uppercase;
-            display: inline-block;
-            transition: all .2s;
-        }
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
 
-        &:hover,
-        &:active {
-            color: $color-primary;
-            box-shadow: 0 1rem 2rem rgba($color-black, .4);
-            transform: rotate(5deg) scale(1.3);
-        }
-    }
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
 
-    &__copyright {
-        border-top: 1px solid $color-grey-dark;
-        padding-top: 2rem;
-        width: 80%;
-        float: right;
+.ion-social-twitter:hover {
+    color: #00aced;
+}
 
-        @include respond(tab-port) {
-            width: 100%;
-            float: none;
-        }
-    }
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #517fa4;
 }

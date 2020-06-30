@@ -1,4 +1,4 @@
-.card {
+.teamcard {
 
     // FUNCTIONALITY
     // perspective: 150rem;
@@ -27,31 +27,31 @@
             background-color: $color-white;
         }
 
-        &--back {
-            transform: rotateY(180deg);
+        // &--back {
+        //     transform: rotateY(180deg);
 
-            &-1 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
-            }
+        //     &-1 {
+        //         background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+        //     }
 
-            &-2 {
-                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
-            }
+        //     &-2 {
+        //         background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+        //     }
 
-            &-3 {
-                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
-            }
-        }
+        //     &-3 {
+        //         background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+        //     }
+        // }
     }
   
 
-    &:hover &__side--front {
-        transform: rotateY(-180deg);
-    }
+    // &:hover &__side--front {
+    //     transform: rotateY(-180deg);
+    // }
 
-    &:hover &__side--back {
-        transform: rotateY(0);
-    }
+    // &:hover &__side--back {
+    //     transform: rotateY(0);
+    // }
 
 
     // FRONT SIDE STYLING
@@ -149,31 +149,31 @@
         }
     }
 
-    // FRONT SIDE STYLING
-    &__cta {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 90%;
-        text-align: center;
-    }
+    // // FRONT SIDE STYLING
+    // &__cta {
+    //     position: absolute;
+    //     top: 40%;
+    //     left: 50%;
+    //     transform: translate(-50%, -50%);
+    //     width: 90%;
+    //     text-align: center;
+    // }
 
-    &__about-speaker-box {
-        text-align: center;
-        color: $color-white;
+    // &__about-speaker-box {
+    //     text-align: center;
+    //     color: $color-white;
         
-    }
+    // }
 
-    &__about-speaker {
-        font-size: 1.4rem;
-        text-transform: uppercase;
-    }
+    // &__about-speaker {
+    //     font-size: 1.4rem;
+    //     text-transform: uppercase;
+    // }
 
-    &__speaker-name {
-        font-size: 3rem;
-        font-weight: 100;
-    }
+    // &__speaker-name {
+    //     font-size: 3rem;
+    //     font-weight: 100;
+    // }
 
 
 

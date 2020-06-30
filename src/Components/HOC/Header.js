@@ -6,17 +6,17 @@ class Header extends Component{
         return(
             <div className = 'header'>
                 <div className="header__logo-box">
-                    <img src="./public/img/reva_logo_white.png" alt="Logo" className="header__logo"/>
+                    <img src="https://reva.edu.in/images/footer-logo.png" alt="Logo" className="header__logo"/>
                 </div>
 
                 <div className="header__text-box">
-                    <h1 class="heading-primary">
+                    <h1 className="heading-primary">
                         <span className="heading-primary--main">{this.props.pmain}</span>
                         <span className="heading-primary--sub">{this.props.psec}</span>
                     </h1>
 
                     <a className="btn btn--ghost u-margin-bottom-medium" href={this.props.sec_btn_link}>{this.props.sec_btn_text}</a><br/>
-                    <a href={this.props.pri_btn_link} class="btn btn--white btn--animated heading-tertiary">{this.props.pri_btn_text}</a>
+                    <a href={this.props.pri_btn_link} className="btn btn--white btn--animated heading-tertiary">{this.props.pri_btn_text}</a>
                 </div>
             </div>
         );
