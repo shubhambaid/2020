@@ -4,7 +4,10 @@ import { render } from "@testing-library/react";
 class Header extends Component{
     render(){
         return(
-            <h1>This is the Header</h1>
+                <div>
+                <h1>This is the Header</h1>
+                <p>deep</p>
+                </div>
         );
     }
 }
