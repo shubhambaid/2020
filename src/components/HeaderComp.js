@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import "../Prizes.css";
 
 class Schedule extends Component{
     render(){
