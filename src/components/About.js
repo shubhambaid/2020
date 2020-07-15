@@ -95,18 +95,18 @@ function About() {
             </div>
           </div>
         </div>
-        <a className="prev" onClick="plusSlides(-1)">
+        <a className="prev" onClick={plusSlides(-1)}>
           &#10094;
         </a>
-        <a className="next" onClick="plusSlides(1)">
+        <a className="next" onClick={plusSlides(1)}>
           &#10095;
         </a>
       </div>
 
       <div className="dots" style="text-align:center">
-        <span className="dot" onclick="currentSlide(1)"></span>
-        <span className="dot" onclick="currentSlide(2)"></span>
-        <span className="dot" onclick="currentSlide(3)"></span>
+        <span className="dot" onClick={currentSlide(1)}></span>
+        <span className="dot" onClick={currentSlide(2)}></span>
+        <span className="dot" onClick={currentSlide(3)}></span>
       </div>
     </div>
   );
