@@ -32,7 +32,7 @@ class Prizes extends Component{
               </div>
             </div>
             </td>
-            <td><hr className="hrv"/>
+            <td><hr className="hrvv"/>
             </td>
             <td><div className="bot-right">
               <h6>3 RD PLACE</h6>

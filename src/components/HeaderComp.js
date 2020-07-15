@@ -1,7 +1,7 @@
 import React, {Component} from "react";
-import { render } from "@testing-library/react";
+import "../Prizes.css";
 
-class Header extends Component{
+class Schedule extends Component{
     render(){
         return(
                 <div>
@@ -12,4 +12,4 @@ class Header extends Component{
     }
 }
 
-export default Header;
+export default Schedule;
