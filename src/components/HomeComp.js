@@ -1,15 +1,21 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import { render } from "@testing-library/react";
 import Header from "./HeaderComp";
 import Footer from "./FooterComp";
+import Navbar from "./Navbar";
+import Navbar1 from "./Navbar1";
+import Sponsors from "./Sponsors";
 
 
-class Home extends Component{
-    render(){
-        return(
+
+class Home extends Component {
+    render() {
+        return (
             <div>
-                <Header />
-                <Footer />
+                <Navbar />
+                <Sponsors />
+
+
             </div>
         );
     }
