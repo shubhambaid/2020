@@ -1,0 +1,68 @@
+body{
+  background: black;
+  text-align: center;
+}
+.top-top{
+  background: black;
+  text-align: center;
+}
+.top{
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  margin-top: 100px;
+  background: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0;
+}
+p{
+  line-height: 0;
+}
+.mid{
+  line-height: 2px;
+}
+.mo{
+  margin: 0 auto 0 auto;
+  font-size: 30px;
+}
+hr{
+  width: 21%;
+  background: white;
+  margin: 0 auto 0 auto;
+}
+.hrvv{
+  width: 1px;
+  height: 15px;
+  background: white;
+  margin: 0 auto 0 auto;
+  padding-bottom: 100px;
+}
+.bot-left{
+  margin: 0 auto 0 auto;
+  font-size: 20px;
+  line-height: 0;
+  padding-right: 30px;
+}
+.bot-right{
+  margin: 0 auto 0 auto;
+  font-size: 20px;
+  line-height: 0;
+  padding-left: 30px;
+}
+table{
+  margin: -40px auto 0 auto;
+  border-spacing: 100px;
+}
+.but{
+  background-color: blue;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#pp{
+  padding-bottom: 20px;
+}
