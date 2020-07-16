@@ -4,7 +4,7 @@ import coverImageMobile from "../images/cover-mobile.png";
 import "../css/Cover.css";
 
 function Cover(props) {
-  const [mode, setMode] = useState("dark");
+  // const [mode, setMode] = useState("dark");
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -14,11 +14,11 @@ function Cover(props) {
   return (
     <div
       className="cover"
-      style={
-        mode === "dark"
-          ? { backgroundColor: " #1e1e1e" }
-          : { backgroundColor: "#fcfcfc" }
-      }
+      // style={
+      //   mode === "dark"
+      //     ? { backgroundColor: " #1e1e1e" }
+      //     : { backgroundColor: "#fcfcfc" }
+      // }
     >
       {/* <div
         class="custom-control custom-switch"
