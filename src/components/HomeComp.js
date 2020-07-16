@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import Footer from "./FooterComp";
+import Navbar from "./Navbar";
+import Sponsors from "./Sponsors";
 import Prizes from "./Prizes";
 import About from "./About";
 import Cover from "./Cover";

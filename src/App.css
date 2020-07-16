@@ -3,5 +3,8 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.ava{
+  color: blue;
+}
 *{font-family: 'Barlow';}
 * *{font-family: 'Source Code Pro';}
