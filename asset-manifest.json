@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.31f0adbb.chunk.css",
-    "main.js": "/static/js/main.70cfbe33.chunk.js",
-    "main.js.map": "/static/js/main.70cfbe33.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c8c4c9f3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c8c4c9f3.js.map",
-    "static/js/2.e281fabf.chunk.js": "/static/js/2.e281fabf.chunk.js",
-    "static/js/2.e281fabf.chunk.js.map": "/static/js/2.e281fabf.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.cab70d670fb01dc5efc2e5d7037ed2f1.js": "/precache-manifest.cab70d670fb01dc5efc2e5d7037ed2f1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.31f0adbb.chunk.css.map": "/static/css/main.31f0adbb.chunk.css.map",
-    "static/js/2.e281fabf.chunk.js.LICENSE.txt": "/static/js/2.e281fabf.chunk.js.LICENSE.txt",
-    "static/media/cover-mobile.png": "/static/media/cover-mobile.08237c15.png",
-    "static/media/cover.png": "/static/media/cover.1173d4f9.png"
+    "main.css": "/2020/static/css/main.31f0adbb.chunk.css",
+    "main.js": "/2020/static/js/main.6624ac9f.chunk.js",
+    "main.js.map": "/2020/static/js/main.6624ac9f.chunk.js.map",
+    "runtime-main.js": "/2020/static/js/runtime-main.c2270b7d.js",
+    "runtime-main.js.map": "/2020/static/js/runtime-main.c2270b7d.js.map",
+    "static/js/2.e852661a.chunk.js": "/2020/static/js/2.e852661a.chunk.js",
+    "static/js/2.e852661a.chunk.js.map": "/2020/static/js/2.e852661a.chunk.js.map",
+    "index.html": "/2020/index.html",
+    "precache-manifest.cf9d5a36564e4d90fc6b6cca149a35ba.js": "/2020/precache-manifest.cf9d5a36564e4d90fc6b6cca149a35ba.js",
+    "service-worker.js": "/2020/service-worker.js",
+    "static/css/main.31f0adbb.chunk.css.map": "/2020/static/css/main.31f0adbb.chunk.css.map",
+    "static/js/2.e852661a.chunk.js.LICENSE.txt": "/2020/static/js/2.e852661a.chunk.js.LICENSE.txt",
+    "static/media/cover-mobile.png": "/2020/static/media/cover-mobile.08237c15.png",
+    "static/media/cover.png": "/2020/static/media/cover.1173d4f9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c8c4c9f3.js",
-    "static/js/2.e281fabf.chunk.js",
+    "static/js/runtime-main.c2270b7d.js",
+    "static/js/2.e852661a.chunk.js",
     "static/css/main.31f0adbb.chunk.css",
-    "static/js/main.70cfbe33.chunk.js"
+    "static/js/main.6624ac9f.chunk.js"
   ]
 }
