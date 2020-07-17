@@ -1,10 +1,30 @@
-
 .cover {
   background-color: #1e1e1e;
   color: #fcfcfc;
   text-align: center;
   height: 100vh;
-  padding-top: 25vh;
+  width: 100%;
+  overflow: hidden;
+  background-image:  linear-gradient(45deg, red, orange, yellow, orange, red);
+  background-size: 800%;
+  animation: gradientBG 10s ease-in-out 0s infinite alternate-reverse;
+}
+@keyframes gradientBG {
+	0% {
+        background-position: 0% 20%;
+    }
+	50% {
+        background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 20%;
+	}
+}
+
+.devfolio-btn{
+position: relative;
+bottom:30%;
+
 }
 
 .custom-control {
@@ -13,17 +33,17 @@
   right: 2%;
 }
 .cover img {
-  width: 50%;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
-.custom-switch .custom-control-label::before ,.custom-control-label{
-    cursor: pointer;
+.custom-switch .custom-control-label::before,
+.custom-control-label {
+  cursor: pointer;
 }
 
-@media (max-width: 767.98px) {
-  .cover img {
-    width: 90%;
-  }
-}
+
+
 
 #devfolio-apply-now {
   -ms-flex-align: center;
