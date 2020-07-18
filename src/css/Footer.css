@@ -5,20 +5,22 @@ body{
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    gap: 3rem;
     padding: 1rem;
 }
 .grid2 div{
     margin-top: 0.4rem;
 }
 footer{
+    width: 100%;
     height: auto;
     font-family: Arial, Helvetica, sans-serif;
     background: #1e1e1e;
     color: #fcfcfc;
 }
 .stack_2{
-    padding: 1rem;
+    padding:1rem 6rem ;
+    text-align: left;
 }
 .footer_items{
     font-size: 1.5rem;
@@ -26,27 +28,33 @@ footer{
     color: #b8b6b6;
     text-decoration: none;
 }
+.item2{
+    padding-top: 2vh;
+}
 #copyright{
     margin-top: 0.5rem;
     background: #1e1e1e;
-    padding: 0.8rem 3rem;
+    padding: 1rem 3rem;
     border-top: #fcfcfc85 1px solid;
     font-size: 1.1rem;
     color: #fcfcfc;
-    font-weight: bold;
 }
 .icon_div{
     position: absolute;
     left: 0;
-    width:30rem;
+    width:35rem;
     height: auto;
     margin-left: 0;
     padding: 1.5rem 1rem;
     background: #000000;
 }
 
+
 .icon_div a{
     margin: 1rem;
+}
+.icon_div a:first-child{
+    margin-left: 5rem;
 }
 .icons{
     margin:0.5rem 0.8rem;
@@ -54,11 +62,11 @@ footer{
     height: auto;
 }
 .map{
-    margin-left:7rem ;
+    margin-left:4rem ;
     border: none;
     border-radius: 10px;
     height: 256px;
-    width: 100%;
+    width: 500px;
     
 }
 .foot_map{
@@ -68,6 +76,9 @@ footer{
     .icon_div{
         display: inline;
         width: 100vw;
+    }
+    .icon_div a:first-child{
+        margin-left: 0rem;
     }
     .grid2{
         display: inline-block;
@@ -90,7 +101,7 @@ footer{
         margin:0.2rem 0.5rem;
     }
     .map{
-        margin-top: 15vh;
+        margin-top: 18vh;
         border: none;
         border-radius: 10px;
         height: 256px;
@@ -98,10 +109,9 @@ footer{
     }
     .foot_map{
         border-left:none ;
+        padding-bottom: 15m;
     }
     #copyright{
-        font-size: small;
-        margin: 0;
-        text-align: center;
+       display: none;
     }
 }
