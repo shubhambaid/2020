@@ -13,8 +13,10 @@ class Home extends Component {
 
         <div className="top-top">
           <Cover />
-          <Schedule />
+          <Navbar />
           <Prizes />
+          <Schedule />
+          <Sponsors />
           <Footer />
         </div>
     

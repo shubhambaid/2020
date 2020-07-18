@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Home from "./components/HomeComp";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 
 class App extends Component {
@@ -8,9 +7,6 @@ class App extends Component {
     return (
       <div>
         <Home />
-
-
-
       </div>
 
     );

@@ -19,7 +19,7 @@ class Footer extends Component {
                   </a>
                 </div>
                 <div>
-                  <a href="#" classNameName="footer_items item2">
+                  <a href="#" className="footer_items item2">
                     Ask questions
                   </a>
                 </div>
