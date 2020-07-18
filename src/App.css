@@ -1,10 +1,5 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+body{
+  overflow-x: hidden;
 }
-.ava{
-  color: blue;
-}
-*{font-family: 'Barlow';}
-* *{font-family: 'Source Code Pro';}
+
+
