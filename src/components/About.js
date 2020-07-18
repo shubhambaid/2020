@@ -109,6 +109,7 @@ function About() {
         <span className="dot" onClick={currentSlide(3)}></span>
       </div>
     </div>
+
   );
 }
 

@@ -4,22 +4,22 @@ import Navbar from "./Navbar";
 import Sponsors from "./Sponsors";
 import Prizes from "./Prizes";
 import Cover from "./Cover";
-import Schedule from "./Schedule";
+import Schedule from "./schedule";
 
 class Home extends Component {
   render() {
     return (
-      
 
-        <div className="top-top">
-          <Cover />
-          <Navbar />
-          <Prizes />
-          <Schedule />
-          <Sponsors />
-          <Footer />
-        </div>
-    
+
+      <div className="top-top">
+        <Cover />
+        <Navbar />
+        <Prizes />
+        <Schedule />
+        <Sponsors />
+        <Footer />
+      </div>
+
     );
   }
 }

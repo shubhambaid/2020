@@ -1,11 +1,8 @@
-body{
+ body{
   background: black;
   text-align: center;
 }
-.top-top{
-  background: black;
-  text-align: center;
-}
+
 .top{
   color: white;
   font-family: 'Source Code Pro', monospace;
@@ -20,13 +17,14 @@ p{
 }
 .mid{
   line-height: 2px;
+  font-size: 20px;
 }
 .mo{
   margin: 0 auto 0 auto;
   font-size: 30px;
 }
 hr{
-  width: 21%;
+  width: 28%;
   background: white;
   margin: 0 auto 0 auto;
 }
@@ -51,7 +49,7 @@ hr{
 }
 table{
   margin: -40px auto 0 auto;
-  border-spacing: 100px;
+  border-spacing: 50px;
 }
 .but{
   background-color: blue;
@@ -65,4 +63,177 @@ table{
 }
 #pp{
   padding-bottom: 20px;
+}
+@media screen and (min-width: 500px) and (max-width: 713px){
+  table{
+    margin: -40px auto 0 auto;
+    border-spacing: 30px;
+  }
+  .bot-left{
+    margin: 0 auto 0 auto;
+    font-size: 17px;
+    line-height: 0;
+    padding-right: 30px;
+  }
+  .bot-right{
+    margin: 0 auto 0 auto;
+    font-size: 17px;
+    line-height: 0;
+    padding-left: 30px;
+  }
+  hr{
+    width: 30%;
+    background: white;
+    margin: 0 auto 0 auto;
+  }
+  .mid{
+    line-height: 2px;
+    font-size: 20px;
+  }
+  .mo{
+    margin: 0 auto 0 auto;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 575px){
+  table{
+    margin: -40px auto 0 auto;
+    border-spacing: 26px;
+  }
+  .bot-left{
+    margin: 0 auto 0 auto;
+    font-size: 13px;
+    line-height: 0;
+    padding-right: 30px;
+  }
+  hr{
+    width: 30%;
+    background: white;
+    margin: 0 auto 0 auto;
+  }
+  .bot-right{
+    margin: 0 auto 0 auto;
+    font-size: 13px;
+    line-height: 0;
+    padding-left: 30px;
+  }
+  .mid{
+    line-height: 2px;
+    font-size: 15px;
+  }
+  .mo{
+    margin: 0 auto 0 auto;
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 411px) and (max-width: 500px){
+  table{
+    margin: -40px auto 0 auto;
+    border-spacing: 17px;
+  }
+  .bot-left{
+    margin: 0 auto 0 auto;
+    font-size: 11px;
+    line-height: 0;
+    padding-right: 30px;
+  }
+  .bot-right{
+    margin: 0 auto 0 auto;
+    font-size: 11px;
+    line-height: 0;
+    padding-left: 30px;
+  }
+  hr{
+    width: 30%;
+    background: white;
+    margin: 0 auto 0 auto;
+  }
+  .mid{
+    line-height: 2px;
+    font-size: 12px;
+  }
+  .mo{
+    margin: 0 auto 0 auto;
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 411px){
+  table{
+    margin: -40px auto 0 auto;
+    border-spacing: 1px;
+  }
+  .bot-left{
+    margin: 0 auto 0 auto;
+    font-size: 11px;
+    line-height: 0;
+    padding-right: 30px;
+  }
+  .bot-right{
+    margin: 0 auto 0 auto;
+    font-size: 11px;
+    line-height: 0;
+    padding-left: 30px;
+  }
+  hr{
+    width: 30%;
+    background: white;
+    margin: 0 auto 0 auto;
+  }
+  .mid{
+    line-height: 2px;
+    font-size: 12px;
+  }
+  .mo{
+    margin: 0 auto 0 auto;
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 360px){
+  table{
+    margin: -40px auto 0 auto;
+    border-spacing: 0;
+  }
+  .bot-left{
+    margin: 0 auto 0 auto;
+    font-size: 9px;
+    line-height: 0;
+    padding-right: 30px;
+  }
+  .bot-right{
+    margin: 0 auto 0 auto;
+    font-size: 9px;
+    line-height: 0;
+    padding-left: 30px;
+  }
+  hr{
+    width: 30%;
+    background: white;
+    margin: 0 auto 0 auto;
+  }
+  .mid{
+    line-height: 2px;
+    font-size: 9px;
+  }
+  .mo{
+    margin: 0 auto 0 auto;
+    font-size: 20px;
+  }
+  .titles{
+    width: 100px;
+    height: 100px;
+  }
+  .but{
+    background-color: blue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  p{
+    width: 50px;
+    height: 100px;
+  }
 }
