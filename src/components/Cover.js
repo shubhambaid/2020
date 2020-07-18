@@ -1,23 +1,28 @@
-import React, { useState } from "react";
-import coverDark from "../images/cover-dark.svg";
-import coverLight from "../images/cover-light.svg";
+import React, { useState, useEffect } from "react";
+import coverImageLarge from "../images/cover.png";
+import coverImageMobile from "../images/cover-mobile.png";
 import "../css/Cover.css";
 
 function Cover(props) {
-  const [mode, setMode] = useState("dark");
+  // const [mode, setMode] = useState("dark");
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    if (window.outerWidth <= 768) setIsMobile(true);
+  }, [isMobile]);
+
   return (
     <div
       className="cover"
-      style={
-        mode === "dark"
-          ? { backgroundColor: " #1e1e1e" }
-          : { backgroundColor: "#fcfcfc" }
-      }
+      // style={
+      //   mode === "dark"
+      //     ? { backgroundColor: " #1e1e1e" }
+      //     : { backgroundColor: "#fcfcfc" }
+      // }
     >
-        
-      <div
+      {/* <div
         class="custom-control custom-switch"
-        style={{ position: "absolute"}}
+        style={{ position: "absolute" }}
       >
         <input
           type="checkbox"
@@ -35,13 +40,11 @@ function Cover(props) {
         >
           Light
         </label>
-      </div>
-    
-      <img
-        src={mode === "dark" ? coverDark : coverLight}
-        alt="Reva Hack 2020"
-      />
-      <button id="devfolio-apply-now">
+      </div> */}
+
+      {isMobile? <img src={coverImageMobile} alt="" /> : <img src={coverImageLarge} alt="" />}
+
+      <button id="devfolio-apply-now" className="devfolio-btn">
         <svg
           class="logo"
           xmlns="http://www.w3.org/2000/svg"
