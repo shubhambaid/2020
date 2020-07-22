@@ -5,6 +5,7 @@ import Sponsors from "./Sponsors";
 import Prizes from "./Prizes";
 import Cover from "./Cover";
 import Schedule from "./Schedule";
+import About from "./About";
 
 class Home extends Component {
   render() {
@@ -14,6 +15,7 @@ class Home extends Component {
         <div className="top-top">
           <Cover />
           <Navbar />
+          <About />
           <Prizes />
           <Schedule />
           <Sponsors />
