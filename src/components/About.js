@@ -6,6 +6,7 @@ class About extends Component {
   render() {
     return (
       <div>
+      <div>
         <div className="slideshow-container">
           <div className="slide">
             <div className="grid2">
@@ -39,13 +40,14 @@ class About extends Component {
       </div>
 
       <div className="dots" style="text-align:center">
-        <span className="dot" onClick={currentSlide(1)}></span>
-        <span className="dot" onClick={currentSlide(2)}></span>
-        <span className="dot" onClick={currentSlide(3)}></span>
+        <span className="dot"></span>
+        <span className="dot"></span>
+        <span className="dot"></span>
       </div>
     </div>
 
   );
+}
 }
 
 export default About;
