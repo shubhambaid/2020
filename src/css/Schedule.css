@@ -10,10 +10,7 @@
   background: white;
   margin: 0 auto 0 auto;
 }
-.top-top{
-  padding-top: 100px;
-  margin-left: 0;
-}
+
 body{
   background: black;
 }
@@ -258,10 +255,201 @@ h6{
   .ddl{
     white-space: nowrap;
     margin-right: 300px;
-    margin-left: -170px;
+    margin-left: -200px;
     text-align: right;
     color: white;
     font-family: 'Source Code Pro', monospace;
     font-size:15px;
+  }
+}
+@media (max-width:460px) {
+  .hed{
+    padding-bottom: 70px;
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+  }
+  .hrv{
+    background-color: black;
+    width: 1px;
+    height: 100px;
+    background: white;
+    margin: 0 auto 0 auto;
+  }
+  .top-top{
+    padding-top: 100px;
+    margin-left: 0;
+
+  }
+  body{
+    background: black;
+  }
+  #circle1 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  #circle2 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  #circle3 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  #circle4 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  #circle5 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  #circle6 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  p{
+    color: white;
+    white-space: nowrap;
+    margin-top: 0;
+  }
+  h6{
+    color: white;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .ddr{
+    white-space: nowrap;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 10px;
+  }
+  .ddl{
+    white-space: nowrap;
+    margin-right: 300px;
+    margin-left: -170px;
+    text-align: right;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size:10px;
+  }
+  .pclass{
+    font-size: 20px;
+    white-space:nowrap;
+
+  }
+}
+@media (max-width:395px) {
+  .hed{
+    padding-bottom: 70px;
+    font-size: 30px;
+    margin: 0 auto 0 auto;
+    font-family: 'Source Code Pro', monospace;
+  }
+  .hrv{
+    background-color: black;
+    width: 1px;
+    height: 100px;
+    background: white;
+    margin: 0 auto 0 auto;
+  }
+  .top-top{
+    padding-top: 100px;
+    margin-left: 0;
+
+  }
+  body{
+    background: black;
+  }
+  #circle1 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  #circle2 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  #circle3 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  #circle4 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  #circle5 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  #circle6 {
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin:0 auto 0 auto;
+  }
+  p{
+    color: white;
+    white-space: nowrap;
+    margin-top: 0;
+  }
+  h6{
+    color: white;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .ddr{
+    white-space: nowrap;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 10px;
+  }
+  .ddl{
+    white-space: nowrap;
+    margin-right: 300px;
+    margin-left: -140px;
+    text-align: right;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size:10px;
+  }
+  .pclass{
+    font-size: 17px;
+    white-space:nowrap;
+
   }
 }

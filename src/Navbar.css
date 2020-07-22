@@ -21,7 +21,7 @@
   }
   
   .sidenav a:hover {
-    color: black;
+    color:grey;
   }
 
   @media (max-width:767px)
@@ -32,7 +32,7 @@
         height: 18em;
         position: fixed;
         z-index: 1;
-        top: 90vh;
+        top: 97vh;
         left: 0;
         bottom: 0px;
         margin: 0px;
@@ -48,10 +48,12 @@
         
       }
       .sidenav a {
-        padding: 0 0 0 25px;
+        padding: 0 0 0 100px;
         text-decoration: none;
         font-size: 16px;
         color: black;
+
+        
         
         
         
@@ -61,6 +63,98 @@
       }
 
   }
+  @media (max-width:629px){
+    .sidenav a {
+      padding: 0 0 0 80px;
+    }
+
+  }
+  @media (max-width:543px){
+    .sidenav a {
+      padding: 0 0 0 60px;
+    }
+    
+  }
+  @media (max-width:471px){
+    .sidenav a {
+      padding: 0 0 0 50px;
+    }
+    
+   
+  }
+  @media (max-width:417px){
+    .sidenav a{
+      padding: 0 0 0 40px;
+    }
+
+    .sidenav {
+      top: 100vh;
+    }
+  }
+
+  @media (max-width:397px){
+    .sidenav {
+      top: 102vh;
+    }
+  }
+  @media (max-width:389px){
+    .sidenav {
+      top: 104vh;
+    }
+  }
+  @media (max-width:379px){
+    .sidenav {
+      top: 107vh;
+    }
+  }
+  @media (max-width:371px){
+    .sidenav {
+      top: 109vh;
+    }
+  }
+  @media (max-width:365px){
+    .sidenav {
+      top: 110vh;
+    }
+  }
+  @media (max-width:360px){
+    .sidenav {
+      top: 101vh;
+    }
+
+    .sidenav a{
+      padding: 0 0 0 30px;
+    }
+  }
+  @media (max-width:331px){
+    .sidenav {
+      top: 104vh;
+    }
+    
+  }
+  @media (max-width:320px){
+    .sidenav {
+      top: 106vh;
+    }
+
+  }
+  @media (max-width:315px){
+    .sidenav {
+      top: 109vh;
+    }
+
+  }
+  @media (max-width:309px){
+    .sidenav {
+      top: 111vh;
+    }
+
+  }
+
+
+
+
+
 
 
 

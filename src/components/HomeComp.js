@@ -10,18 +10,15 @@ import About from "./About";
 class Home extends Component {
   render() {
     return (
-      
 
-        <div >
-          <Cover />
-          <Navbar />
-          <About />
-          <Prizes />
-          <Schedule />
-          <Sponsors />
-          <Footer />
-        </div>
-    
+      <div className="top-top">
+        <Cover />
+        <Navbar />
+        <Prizes />
+        <Schedule />
+        <Sponsors />
+        <Footer />
+      </div>
     );
   }
 }

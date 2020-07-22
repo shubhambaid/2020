@@ -8,8 +8,9 @@ import logo_youtube from "../images/logo_youtube.png";
 class Footer extends Component {
   render() {
     return (
-      
-        <footer>
+
+      <footer>
+        <div>
           <div className="container grid2">
             <div>
               <div className="stack_2">
@@ -41,7 +42,7 @@ class Footer extends Component {
             </div>
             <div className="foot_map">
               <iframe
-              title="someRandomKey"
+                title="someRandomKey"
                 className="map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15542.89373821591!2d77.6346617!3d13.1166989!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdee225fe28f600f6!2sREVA+University!5e0!3m2!1sen!2sin!4v1522677320198"
               ></iframe>
@@ -49,8 +50,20 @@ class Footer extends Component {
           </div>
           <div id="copyright">
             <p>Copyright REVA UNIVERSITY&copy; 2020</p>
+
           </div>
-        </footer>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+
+        </div>
+
+      </footer>
+
 
     );
   }
