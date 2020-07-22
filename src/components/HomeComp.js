@@ -11,7 +11,6 @@ class Home extends Component {
 
       <div>
         <Cover />
-        <Prizes />
         <Schedule />
         <Sponsors />
         <Footer />

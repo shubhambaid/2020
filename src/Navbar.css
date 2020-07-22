@@ -152,10 +152,11 @@
   }
 
 
-
-
-
-
-
-
- 
+.bottom_nav{
+  position: fixed;
+  width: 100vw;
+  bottom: 0px;
+  height: 50px;
+  padding: 10px;
+  background: #fcfcfc;
+}
