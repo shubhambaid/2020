@@ -12,7 +12,7 @@ class Home extends Component {
     return (
       
 
-        <div className="top-top">
+        <div >
           <Cover />
           <Navbar />
           <About />
