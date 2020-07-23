@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.8fcd1a74.chunk.css",
-    "main.js": "/static/js/main.c1feac8c.chunk.js",
-    "main.js.map": "/static/js/main.c1feac8c.chunk.js.map",
+    "main.js": "/static/js/main.44858419.chunk.js",
+    "main.js.map": "/static/js/main.44858419.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.96c15a30.js",
     "runtime-main.js.map": "/static/js/runtime-main.96c15a30.js.map",
     "static/css/2.f4b7c09d.chunk.css": "/static/css/2.f4b7c09d.chunk.css",
     "static/js/2.9c4ec9de.chunk.js": "/static/js/2.9c4ec9de.chunk.js",
     "static/js/2.9c4ec9de.chunk.js.map": "/static/js/2.9c4ec9de.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ef1a3157c006f201169fc16c16f081d3.js": "/precache-manifest.ef1a3157c006f201169fc16c16f081d3.js",
+    "precache-manifest.e1913d8b8cee7bffa5405ffcd4e2ed22.js": "/precache-manifest.e1913d8b8cee7bffa5405ffcd4e2ed22.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.f4b7c09d.chunk.css.map": "/static/css/2.f4b7c09d.chunk.css.map",
     "static/css/main.8fcd1a74.chunk.css.map": "/static/css/main.8fcd1a74.chunk.css.map",
@@ -17,18 +17,18 @@
     "static/media/Final-01.png": "/static/media/Final-01.7ada5f5f.png",
     "static/media/cover-mobile.png": "/static/media/cover-mobile.723b153e.png",
     "static/media/cover.png": "/static/media/cover.1173d4f9.png",
-    "static/media/curation.png": "/static/media/curation.09c3f78e.png",
-    "static/media/design.png": "/static/media/design.25a8c4dc.png",
-    "static/media/developers.png": "/static/media/developers.f8aa976d.png",
-    "static/media/organizers.png": "/static/media/organizers.cb4ba9c9.png",
-    "static/media/query-management.png": "/static/media/query-management.5024caca.png",
-    "static/media/sponsors.png": "/static/media/sponsors.5d14b8f6.png"
+    "static/media/curation.png": "/static/media/curation.3f6bd642.png",
+    "static/media/design.png": "/static/media/design.903cf9b2.png",
+    "static/media/developers.png": "/static/media/developers.5816b350.png",
+    "static/media/organizers.png": "/static/media/organizers.7b9096cd.png",
+    "static/media/query-management.png": "/static/media/query-management.30be24e2.png",
+    "static/media/sponsors.png": "/static/media/sponsors.ede0075f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.96c15a30.js",
     "static/css/2.f4b7c09d.chunk.css",
     "static/js/2.9c4ec9de.chunk.js",
     "static/css/main.8fcd1a74.chunk.css",
-    "static/js/main.c1feac8c.chunk.js"
+    "static/js/main.44858419.chunk.js"
   ]
 }
