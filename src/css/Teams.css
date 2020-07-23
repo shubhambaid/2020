@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Barlow", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+}
+.teams {
+  width: 80%;
+  margin-left: 8rem;
+}
+
+.teams * {
+  font-family: "Barlow", sans-serif;
+}
+
+.teams .team-card {
+  background-color: #fcfcfc;
+  margin: 1.5rem ;
+  cursor: pointer;
+}
+
+.teams .team-card p {
+  color: black;
+  margin-top: 12px;
+}
+
+.speaker-btn {
+  cursor: pointer;
+  background-color: #1a27c9;
+  display: block;
+  margin-right: auto;
+}
+
+@media (max-width: 640px) {
+  .teams * {
+    text-align: center;
+  }
+}
