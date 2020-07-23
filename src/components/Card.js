@@ -11,7 +11,7 @@ function Card(props) {
   return (
     <>
       <div
-        className="column large3 medium4 small12  team-card"
+        className="column large4 medium4 small12 team-card"
         onClick={openmod1}
       >
         <img src={props.source} alt="" />
@@ -20,6 +20,7 @@ function Card(props) {
       <div className="modal_container" id={props.name}>
         <div className="modal_content zi3">
           <div className="dialogue_pane large12">
+            <div className="modal_title left">{props.name}</div>
             <button
               class="primary_red right ta_center mod_close_btn"
               onClick={closemod1}

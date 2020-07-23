@@ -8,20 +8,20 @@ import sponsor from "../images/sponsors.png";
 import organizer from "../images/organizers.png";
 import Card from "./Card";
 
-function Team() {
+function Teams() {
   return (
     <div className="teams">
-      <h1>Crew</h1>
+      <h1>The Crew</h1>
       <div>
-        <Card source={developers} name="Developers" />
-        <Card source={design} name="Design" />
-        <Card source={curation} name="Curation" />
-        <Card source={query} name="Query Management" />
-        <Card source={organizer} name="Organizers" />
-        <Card source={sponsor} name="sponsors" />
+        <Card source={organizer} name="Organizing Crew" />
+        <Card source={sponsor} name="Sponsorship Crew" />
+        <Card source={curation} name="Curation Crew" />
+        <Card source={design} name="Design Crew" />
+        <Card source={developers} name="Development Crew" />
+        <Card source={query} name="Query Management Crew" />
       </div>
     </div>
   );
 }
 
-export default Team;
+export default Teams;

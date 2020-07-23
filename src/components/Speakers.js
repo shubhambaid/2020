@@ -19,7 +19,8 @@ function Speakers() {
         <Card source={organizer} name="Organizers" />
         <Card source={sponsor} name="sponsors" />
       </div>
-      <button className="speaker-btn">CALL FOR SPEAKERS</button>
+      <button className="primary_blue small">CALL FOR SPEAKERS</button>
+      <br /><br />
     </div>
   );
 }

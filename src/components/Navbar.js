@@ -14,7 +14,7 @@ class Navbar extends Component {
                     <NavLink to="/speakers" className="pivot_button">
                         <i className="ms-Icon ms-Icon--FavoriteStarFill icon-large"></i>
                     </NavLink><br /><br />
-                    <NavLink to="/team" className="pivot_button">
+                    <NavLink to="/teams" className="pivot_button">
                         <i className="ms-Icon ms-Icon--TeamsLogo icon-large"></i>
                     </NavLink><br /><br />
                     <NavLink to="/faqs" className="pivot_button">
