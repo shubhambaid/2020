@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/2020/static/css/main.31f0adbb.chunk.css",
-    "main.js": "/2020/static/js/main.553db8bd.chunk.js",
-    "main.js.map": "/2020/static/js/main.553db8bd.chunk.js.map",
-    "runtime-main.js": "/2020/static/js/runtime-main.c2270b7d.js",
-    "runtime-main.js.map": "/2020/static/js/runtime-main.c2270b7d.js.map",
-    "static/js/2.e852661a.chunk.js": "/2020/static/js/2.e852661a.chunk.js",
-    "static/js/2.e852661a.chunk.js.map": "/2020/static/js/2.e852661a.chunk.js.map",
-    "index.html": "/2020/index.html",
-    "precache-manifest.eb2aa8bb61cf15816cc820b6a2197542.js": "/2020/precache-manifest.eb2aa8bb61cf15816cc820b6a2197542.js",
-    "service-worker.js": "/2020/service-worker.js",
-    "static/css/main.31f0adbb.chunk.css.map": "/2020/static/css/main.31f0adbb.chunk.css.map",
-    "static/js/2.e852661a.chunk.js.LICENSE.txt": "/2020/static/js/2.e852661a.chunk.js.LICENSE.txt",
-    "static/media/cover-mobile.png": "/2020/static/media/cover-mobile.08237c15.png",
-    "static/media/cover.png": "/2020/static/media/cover.1173d4f9.png"
+    "main.css": "/static/css/main.4ff46eb0.chunk.css",
+    "main.js": "/static/js/main.de2ad7e9.chunk.js",
+    "main.js.map": "/static/js/main.de2ad7e9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1b2b1293.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1b2b1293.js.map",
+    "static/css/2.f4b7c09d.chunk.css": "/static/css/2.f4b7c09d.chunk.css",
+    "static/js/2.e0d79f39.chunk.js": "/static/js/2.e0d79f39.chunk.js",
+    "static/js/2.e0d79f39.chunk.js.map": "/static/js/2.e0d79f39.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.73915afe40d8290db54fb99ba253e325.js": "/precache-manifest.73915afe40d8290db54fb99ba253e325.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.f4b7c09d.chunk.css.map": "/static/css/2.f4b7c09d.chunk.css.map",
+    "static/css/main.4ff46eb0.chunk.css.map": "/static/css/main.4ff46eb0.chunk.css.map",
+    "static/js/2.e0d79f39.chunk.js.LICENSE.txt": "/static/js/2.e0d79f39.chunk.js.LICENSE.txt",
+    "static/media/Final-01.png": "/static/media/Final-01.7ada5f5f.png",
+    "static/media/cover-mobile.png": "/static/media/cover-mobile.723b153e.png",
+    "static/media/cover.png": "/static/media/cover.1173d4f9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c2270b7d.js",
-    "static/js/2.e852661a.chunk.js",
-    "static/css/main.31f0adbb.chunk.css",
-    "static/js/main.553db8bd.chunk.js"
+    "static/js/runtime-main.1b2b1293.js",
+    "static/css/2.f4b7c09d.chunk.css",
+    "static/js/2.e0d79f39.chunk.js",
+    "static/css/main.4ff46eb0.chunk.css",
+    "static/js/main.de2ad7e9.chunk.js"
   ]
 }
