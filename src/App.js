@@ -7,6 +7,7 @@ import Speakers from "./components/Speakers"
 import "fdweb/fluent.css";
 import "fdweb/fluent-icons.css";
 import "./App.css";
+import FAQ from "./components/FAQ";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Route path="/speakers" component={Speakers} />
           <Route path="/teams" component={Teams} />
           <Route path="/coc" component={Home} />
+          <Route path="/FAQ" component={FAQ} />
         </Switch>
         <Navbar />
       </Router>

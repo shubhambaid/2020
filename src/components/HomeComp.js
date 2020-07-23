@@ -5,7 +5,7 @@ import Prizes from "./Prizes";
 import Cover from "./Cover";
 import About from "./About";
 import Schedule from "./Schedule";
-
+import FAQ from "./FAQ";
 class Home extends Component {
   render() {
     return (
