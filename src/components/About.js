@@ -44,7 +44,7 @@ class About extends Component {
             </h6><br /><br />
             </div>
           <div className="column large6 medium6 small0">
-            <img src={slideImage} />
+            <img src={slideImage} alt="altimage" />
           </div>
           <br /><br />
           <div className="column large10 medium10 small12 center">
@@ -63,7 +63,7 @@ class About extends Component {
       <div className="column large10 medium12 small12 center" id="slide2">
         <br /><br />
         <div className="column large6 medium6 small0">
-          <img src={slideImage} />
+          <img src={slideImage} alt="altimage" />
         </div>
         <div className="column large6 medium6 small12">
           <h5>REVA University</h5><br />
@@ -110,7 +110,7 @@ class About extends Component {
           </h6><br /><br />
         </div>
         <div className="column large6 medium6 small0">
-          <img src={slideImage} />
+          <img src={slideImage} alt="altimage" />
         </div>
         <br /><br />
           <div className="column large10 medium10 small12 center">

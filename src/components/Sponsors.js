@@ -15,17 +15,17 @@ class Sponsors extends Component {
               <div className="column large8 medium8 small12">
                 <h2 className="ta_center">Title</h2>
                 <br />
-                <img src={devfolio} className="center" style={{width: "40%"}} />
+                <img src={devfolio} className="center" style={{width: "40%"}} alt="altimage" />
               </div><br /><br /><br /><br /><br /><br /><br /><br />
 
 
               <div className="column large10 medium12 small12">
                 <h2 className="ta_center">Gold</h2><br />
                 <div className="column large3 medium4 small6">
-                    <img src={fold} className="center" style={{width: "90%"}} />                    
+                    <img src={fold} className="center" style={{width: "90%"}} alt="altimage" />                    
                 </div>
                 <div className="column large3 medium4 small6">
-                    <img src={matic} className="center" style={{width: "90%"}} />                    
+                    <img src={matic} className="center" style={{width: "90%"}} alt="altimage" />                    
                 </div>
               </div><br /><br /><br /><br /><br /><br /><br /><br />
 
@@ -33,16 +33,16 @@ class Sponsors extends Component {
               <div className="column large10 medium12 small12">
                 <h2 className="ta_center">Silver</h2><br />
                 <div className="column large3 medium3 small3">
-                    <img src={fold} className="center" style={{width: "90%"}} />                    
+                    <img src={fold} className="center" style={{width: "90%"}} alt="altimage" />                    
                 </div>
                 <div className="column large3 medium3 small3">
-                    <img src={matic} className="center" style={{width: "90%"}} />                    
+                    <img src={matic} className="center" style={{width: "90%"}} alt="altimage" />                    
                 </div>
                 <div className="column large3 medium3 small3">
-                    <img src={matic} className="center" style={{width: "90%"}} />                    
+                    <img src={matic} className="center" style={{width: "90%"}} alt="altimage" />                    
                 </div>
                 <div className="column large3 medium3 small3">
-                    <img src={fold} className="center" style={{width: "90%"}} />                    
+                    <img src={fold} className="center" style={{width: "90%"}} alt="altimage" />                    
                 </div>
               </div><br /><br /><br /><br />
               
