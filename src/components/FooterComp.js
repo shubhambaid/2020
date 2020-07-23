@@ -4,7 +4,7 @@ import logo_facebook from "../images/logo_facebook.png";
 import logo_instagram from "../images/logo_instagram.png";
 import logo_twitter from "../images/logo_twitter.png";
 import logo_youtube from "../images/logo_youtube.png";
-import { NavLink } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 class Footer extends Component {
   render() {
