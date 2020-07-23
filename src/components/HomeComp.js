@@ -3,6 +3,7 @@ import Footer from "./FooterComp";
 import Sponsors from "./Sponsors";
 import Prizes from "./Prizes";
 import Cover from "./Cover";
+import About from "./About";
 import Schedule from "./Schedule";
 
 class Home extends Component {
@@ -11,6 +12,7 @@ class Home extends Component {
 
       <div>
         <Cover />
+        <About />
         <Prizes />
         <Schedule />
         <Sponsors />
