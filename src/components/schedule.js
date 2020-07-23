@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import "../css/Schedule.css";
 
-class Footer extends Component {
+class Schedule extends Component {
   render() {
     return (
       <div className="top-top">
-        <div>
-          <p className="hed">Schedule</p>
-        </div>
+        <h1 className="title ta_center">Schedule</h1><br /><br /><br /><br />
         <div id="circle1">
           <div className="ddr">
             <div className="pclass">8:20 Friday</div>
@@ -59,4 +57,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default Schedule;

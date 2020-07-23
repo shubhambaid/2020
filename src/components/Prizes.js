@@ -5,50 +5,28 @@ import "../css/Prizes.css";
 class Prizes extends Component {
   render() {
     return (
-      <div className="top-top">
-        <div className="top">
-          <div className="titles">
-            <p id="pp"><h1>Prizes &</h1></p>
-            <p><h1> Incentives</h1></p>
+      <div>
+        <div className="primary_inverted">
+        <br /><br /><br /><br /><br /><br />
+          <h1 className="ta_center title">Prizes and Incentives</h1>
+          <br /><br /><br /><br />
+          <div className="column large8 medium8 small12">
+            <h3 className="ta_center">1st Prize</h3>
+            <h1 className="ta_center">INR 25,000</h1><br /><br /><hr className="large8 medium8 small10" /><br /><br />
+          </div><br /><br /><br /><br />
+          <div className="column large6 medium6 small12" style={{borderRight: "1px solid #fcfcfc"}}>
+          <br /><br />
+            <h6 className="ta_center">2nd Prize</h6>
+            <h3 className="ta_center">INR 15,000</h3><br /><br />
           </div>
-          <br />
-          <br />
-          <br />
-          <div className="mid">
-            <h6>1 ST PLACE</h6>
-            <div className="mo">
-              <h1>₹ 25,000</h1>
-            </div>
+          <div className="column large6 medium6 small12">
+            <br /><br />
+            <h6 className="ta_center">3rd Prize</h6>
+            <h3 className="ta_center">INR 10,000</h3><br /><br />
           </div>
-          <br />
-          <hr />
-          <br />
-
-          <div className="bot">
-            <table>
-              <tr>
-                <td><div className="bot-left">
-                  <h6>2 ND PLACE</h6>
-                  <div className="">
-                    <h1>₹ 15,000</h1>
-                  </div>
-                </div>
-                </td>
-                <td><hr className="hrvv" />
-                </td>
-                <td><div className="bot-right">
-                  <h6>3 RD PLACE</h6>
-                  <div className="">
-                    <h1>₹ 10,000</h1>
-                  </div>
-                </div></td>
-              </tr>
-            </table>
-          </div>
-          <br />
-          <br />
-          <a href="#" className="but">CHECK OUR GIUDELINES</a>
+          <br /><br /><br /><br /><br /><br />
         </div>
+        <br /><br /><br /><br />
       </div>
     );
   }

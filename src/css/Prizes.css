@@ -237,3 +237,10 @@ table{
     height: 100px;
   }
 }
+
+.title{
+  font-size: 8vh;
+}
+h1, h2, h3, h4, h5, h6, p, pre, a{
+  font-family: 'Source Code Pro';
+}
