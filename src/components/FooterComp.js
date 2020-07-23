@@ -20,7 +20,8 @@ class Footer extends Component {
           </button>
           <br /><br /><br /><br /><br /><br />
         </div>
-        <div className="column large10 medium10 small12 primary_inverted center">
+        <div className="column large12 medium12 small12 primary_inverted" style={{width: "100%"}}>
+          <div className="column large1 medium1 small0"></div>
           <div className="column large6 medium6 small12"><br /><br />
             <h5>Get In Touch</h5><br />
             <NavLink className="butlink left">Code Of Conduct</NavLink><br /><br />
@@ -32,7 +33,7 @@ class Footer extends Component {
             <img src={logo_youtube} className="icon left leftpadicon" />
             <br /><br /><br /><br />
           </div>
-          <div className="column large6 medium6 small12">
+          <div className="column large5 medium5 small12">
           <br /><br /><br />
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15542.89373821591!2d77.6346617!3d13.1166989!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdee225fe28f600f6!2sREVA+University!5e0!3m2!1sen!2sin!4v1522677320198" style={{border: "none", borderRadius: "10px", height: "276px", width: "100%"}} allowfullscreen="yes"></iframe>
           <br /><br /><br /><br />
