@@ -7,7 +7,6 @@ import Loading from "./components/LoadComp";
 import "fdweb/fluent.css";
 import "fdweb/fluent-icons.css";
 import "./App.css";
-import FAQ from "./components/FAQ";
 
 const Home = lazy(() =>import("./components/HomeComp"));
 
@@ -21,7 +20,6 @@ class App extends Component {
             <Route path="/speakers" component={Speakers} />
             <Route path="/teams" component={Teams} />
             <Route path="/coc" component={Home} />
-            <Route path="/FAQs" component={FAQ} />
           </Switch>
           <Navbar />
         </Suspense>
