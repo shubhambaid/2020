@@ -1,25 +1,26 @@
 import React, { Component } from "react";
+import {NavLink} from "react-router-dom";
 import "../css/FAQ.css";
 
 class FAQ extends Component {
   render() {
     return (
       <div className="top">
-      <div class="FAQ">
+      <div className="FAQ">
       FAQ
     </div>
     <br/>
     <br/>
     <section>
-      <div class="container">
-        <div class="accordion">
-          <div class="accordion-item" id="question1">
-            <a class="accordion-link" href="#question1">
+      <div className="container">
+        <div className="accordion">
+          <div className="accordion-item" id="question1">
+            <NavLink className="accordion-link" to="#question1">
               When and where will it be hosted?
-              <ion-icon class="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon class="down" name="chevron-down-outline"></ion-icon>
-            </a>
-            <div class="answer">
+              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
+              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
+            </NavLink>
+            <div className="answer">
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -30,13 +31,13 @@ class FAQ extends Component {
             </div>
 
           </div>
-          <div class="accordion-item" id="question2">
-            <a class="accordion-link" href="#question2">
+          <div className="accordion-item" id="question2">
+            <NavLink className="accordion-link" to="#question2">
               How much will it cost me?
-              <ion-icon class="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon class="down" name="chevron-down-outline"></ion-icon>
-            </a>
-            <div class="answer">
+              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
+              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
+            </NavLink>
+            <div className="answer">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -46,13 +47,13 @@ class FAQ extends Component {
             </div>
 
           </div>
-          <div class="accordion-item" id="question3">
-            <a class="accordion-link" href="#question3">
+          <div className="accordion-item" id="question3">
+            <NavLink className="accordion-link" to="#question3">
               What are the requirements to be able to participate?
-              <ion-icon class="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon class="down" name="chevron-down-outline"></ion-icon>
-            </a>
-            <div class="answer">
+              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
+              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
+            </NavLink>
+            <div className="answer">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -62,13 +63,13 @@ class FAQ extends Component {
             </div>
 
           </div>
-          <div class="accordion-item" id="question4">
-            <a class="accordion-link" href="#question4">
+          <div className="accordion-item" id="question4">
+            <NavLink className="accordion-link" to="#question4">
               How do we submit our projects?
-              <ion-icon class="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon class="down" name="chevron-down-outline"></ion-icon>
-            </a>
-            <div class="answer">
+              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
+              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
+            </NavLink>
+            <div className="answer">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -78,13 +79,13 @@ class FAQ extends Component {
             </div>
 
           </div>
-          <div class="accordion-item" id="question5">
-            <a class="accordion-link" href="#question5">
+          <div className="accordion-item" id="question5">
+            <NavLink className="accordion-link" to="#question5">
               Are there any rules to be followed?
-              <ion-icon class="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon class="down" name="chevron-down-outline"></ion-icon>
-            </a>
-            <div class="answer">
+              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
+              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
+            </NavLink>
+            <div className="answer">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -94,13 +95,13 @@ class FAQ extends Component {
             </div>
 
           </div>
-          <div class="accordion-item" id="question6">
-            <a class="accordion-link" href="#question6">
+          <div className="accordion-item" id="question6">
+            <NavLink className="accordion-link" to="#question6">
               What is the theme?
-              <ion-icon class="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon class="down" name="chevron-down-outline"></ion-icon>
-            </a>
-            <div class="answer">
+              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
+              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
+            </NavLink>
+            <div className="answer">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -110,13 +111,13 @@ class FAQ extends Component {
             </div>
 
           </div>
-          <div class="accordion-item" id="question7">
-            <a class="accordion-link" href="#question7">
+          <div className="accordion-item" id="question7">
+            <NavLink className="accordion-link" to="#question7">
               Can I apply if I don’t have a team?
-              <ion-icon class="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon class="down" name="chevron-down-outline"></ion-icon>
-            </a>
-            <div class="answer">
+              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
+              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
+            </NavLink>
+            <div className="answer">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -126,13 +127,13 @@ class FAQ extends Component {
             </div>
 
           </div>
-          <div class="accordion-item" id="question8">
-            <a class="accordion-link" href="#question8">
+          <div className="accordion-item" id="question8">
+            <NavLink className="accordion-link" to="#question8">
               When is the last date for registration?
-              <ion-icon class="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon class="down" name="chevron-down-outline"></ion-icon>
-            </a>
-            <div class="answer">
+              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
+              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
+            </NavLink>
+            <div className="answer">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -142,13 +143,13 @@ class FAQ extends Component {
             </div>
 
           </div>
-          <div class="accordion-item" id="question9">
-            <a class="accordion-link" href="#question9">
+          <div className="accordion-item" id="question9">
+            <NavLink className="accordion-link" to="#question9">
               Can I start working on my project before the event?
-              <ion-icon class="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon class="down" name="chevron-down-outline"></ion-icon>
-            </a>
-            <div class="answer">
+              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
+              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
+            </NavLink>
+            <div className="answer">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -158,13 +159,13 @@ class FAQ extends Component {
             </div>
 
           </div>
-          <div class="accordion-item" id="question10">
-            <a class="accordion-link" href="#question10">
+          <div className="accordion-item" id="question10">
+            <NavLink className="accordion-link" to="#question10">
                I didn’t find my question here, where can I clarify it?
-              <ion-icon class="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon class="down" name="chevron-down-outline"></ion-icon>
-            </a>
-            <div class="answer">
+              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
+              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
+            </NavLink>
+            <div className="answer">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -179,14 +180,14 @@ class FAQ extends Component {
 
       </div>
     </section>
-    <div class="bot">
-      We will following the Hack Code of Conduct,which can be found <a href="#">here</a>
+    <div className="bot">
+      We will following the Hack Code of Conduct,which can be found <NavLink to="#">here</NavLink>
       <br/>
       <br/>
       <br/>
     </div>
-    <div class="bot1">
-      <a href="#" class="but">ASK MORE QUESTIONS</a>
+    <div className="bot1">
+      <NavLink to="#" className="but">ASK MORE QUESTIONS</NavLink>
       <br/><br/><br/>
     </div>
       </div>
