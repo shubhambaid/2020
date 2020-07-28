@@ -10,7 +10,7 @@ class Navbar extends Component {
 
                 <div className="pivot_menu primary_white small0" style={{position: "fixed", top: "0px", bottom: "0px", width: "80px"}}>
                     <br /><br /><br /><br /><br /><br />
-                    <br /><br /><br /><br /><br />
+                    <br /><br /><br /><br /><br /><br />
                     <NavLink to="/speakers" className="pivot_button">
                         <i className="ms-Icon ms-Icon--FavoriteStarFill icon-large"></i>
                     </NavLink><br /><br />
