@@ -1,8 +1,0 @@
-.butlink{
-    color: #fcfcfc;
-    font-size: 22px;
-}
-.butlink:hover::before{
-    display: none;
-}
-.leftpadicon{margin-left: 40px;}
