@@ -1,0 +1,33 @@
+.top{
+  font-family: 'barlow';
+}
+.FAQ{
+  font-size: 50px;
+}
+.collapsible{
+
+    width: 45%;
+    display: block;
+    margin: auto;
+}
+
+.collapsible p{
+    border: 1px solid #1e1e1e;
+    border-top: none;
+    margin-top: -0.3%;
+    margin-left: 4px;
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    white-space:  inherit;
+    line-height: 25px;;
+}
+.collapsible_button{
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+}
+
+.collapsible p{display: none;}
+.collapsible p:hover{display: block;}
+.collapsible_button:focus ~ p{display: block;}
