@@ -11,7 +11,6 @@ class FAQ extends Component {
       <br/>
       <br/>
       <section>
-        <div className="container">
           <div className="collapsible">
             <button className="collapsible_button">
               	When and where will it be hosted?
@@ -131,7 +130,6 @@ class FAQ extends Component {
               qui officia deserunt mollit anim id est laborum.            </p>
           </div>
 
-        </div>
       </section>
       <div className="bot">
         We will following the Hack Code of Conduct,which can be found

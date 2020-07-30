@@ -239,9 +239,12 @@ table{
 }
 
 .title{
-  font-size: 8vh;
+  font-size: 7.5vh;
 }
 h1, h2, h3, h4, h5, h6, p, pre, a{
-  font-family: 'Source Code Pro';
+  font-family: 'Barlow';
   color: #fcfcfc;
+}
+button{
+  font-family: 'Barlow';
 }

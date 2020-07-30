@@ -25,7 +25,7 @@ class About extends Component {
 
 
     return (
-      <section onLoad={showslide1} >
+      <section onLoad={showslide1} style={{padding: "0px 14px"}}>
 
         <div className="column large10 medium12 small12 center" id="slide1">
           <br /><br />

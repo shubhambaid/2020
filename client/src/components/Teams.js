@@ -20,6 +20,7 @@ function Teams() {
         <Card source={developers} name="Development Crew" />
         <Card source={query} name="Query Management Crew" />
       </div>
+      <br /><br /><br /><br />
     </div>
   );
 }

@@ -8,7 +8,7 @@ class Sponsors extends Component {
     render() {
         return (
             <div>
-            <div className="primary_inverted">
+            <div className="primary_inverted" style={{padding: "0px 10px"}}>
             <br /><br /><br /><br /><br /><br />
               <h1 className="ta_center title">Sponsors</h1>
               <br /><br />
