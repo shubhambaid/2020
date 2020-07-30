@@ -1,196 +1,150 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import {NavLink} from "react-router-dom";
+import "../css/FAQ.css";
 
 class FAQ extends Component {
   render() {
-    return (
-      <div className="top">
+    return (<div className="top">
       <div className="FAQ">
-      FAQ
-    </div>
-    <br/>
-    <br/>
-    <section>
-      <div className="container">
-        <div className="accordion">
-          <div className="accordion-item" id="question1">
-            <NavLink className="accordion-link" to="#question1">
-              When and where will it be hosted?
-              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
-            </NavLink>
-            <div className="answer">
-              <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Condimentum lacinia quis vel eros donec ac odio tempor orci.
-              Duis ultricies lacus sed turpis tincidunt id.
-              </p>
-
-            </div>
-
+        FAQ
+      </div>
+      <br/>
+      <br/>
+      <section>
+        <div className="container">
+          <div className="collapsible">
+            <button className="collapsible_button">
+              	When and where will it be hosted?
+            </button>
+            <p>
+              nowrap, Sequences of whitespace will collapse into a single whitespace
+              . Text will never wrap to the next line. The text continues on the same line until
+                       </p>
           </div>
-          <div className="accordion-item" id="question2">
-            <NavLink className="accordion-link" to="#question2">
+          <div className="collapsible">
+            <button className="collapsible_button">
               How much will it cost me?
-              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
-            </NavLink>
-            <div className="answer">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Condimentum lacinia quis vel eros donec ac odio tempor orci.
-                Duis ultricies lacus sed turpis tincidunt id.
-              </p>
-            </div>
-
+            </button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.
+            </p>
           </div>
-          <div className="accordion-item" id="question3">
-            <NavLink className="accordion-link" to="#question3">
-              What are the requirements to be able to participate?
-              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
-            </NavLink>
-            <div className="answer">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Condimentum lacinia quis vel eros donec ac odio tempor orci.
-                Duis ultricies lacus sed turpis tincidunt id.
-              </p>
-            </div>
 
+          <div className="collapsible">
+            <button className="collapsible_button">
+            	What are the requirements to be able to participate?
+            </button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.            </p>
           </div>
-          <div className="accordion-item" id="question4">
-            <NavLink className="accordion-link" to="#question4">
+
+          <div className="collapsible">
+            <button className="collapsible_button">
               How do we submit our projects?
-              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
-            </NavLink>
-            <div className="answer">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Condimentum lacinia quis vel eros donec ac odio tempor orci.
-                Duis ultricies lacus sed turpis tincidunt id.
-              </p>
-            </div>
-
+            </button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.            </p>
           </div>
-          <div className="accordion-item" id="question5">
-            <NavLink className="accordion-link" to="#question5">
-              Are there any rules to be followed?
-              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
-            </NavLink>
-            <div className="answer">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Condimentum lacinia quis vel eros donec ac odio tempor orci.
-                Duis ultricies lacus sed turpis tincidunt id.
-              </p>
-            </div>
 
+          <div className="collapsible">
+            <button className="collapsible_button">
+            	Are there any rules to be followed?
+            </button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.            </p>
           </div>
-          <div className="accordion-item" id="question6">
-            <NavLink className="accordion-link" to="#question6">
+
+          <div className="collapsible">
+            <button className="collapsible_button">
               What is the theme?
-              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
-            </NavLink>
-            <div className="answer">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Condimentum lacinia quis vel eros donec ac odio tempor orci.
-                Duis ultricies lacus sed turpis tincidunt id.
-              </p>
-            </div>
-
+            </button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.            </p>
           </div>
-          <div className="accordion-item" id="question7">
-            <NavLink className="accordion-link" to="#question7">
+
+          <div className="collapsible">
+            <button className="collapsible_button">
               Can I apply if I don’t have a team?
-              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
-            </NavLink>
-            <div className="answer">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Condimentum lacinia quis vel eros donec ac odio tempor orci.
-                Duis ultricies lacus sed turpis tincidunt id.
-              </p>
-            </div>
-
+            </button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.            </p>
           </div>
-          <div className="accordion-item" id="question8">
-            <NavLink className="accordion-link" to="#question8">
+
+          <div className="collapsible">
+            <button className="collapsible_button">
               When is the last date for registration?
-              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
-            </NavLink>
-            <div className="answer">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Condimentum lacinia quis vel eros donec ac odio tempor orci.
-                Duis ultricies lacus sed turpis tincidunt id.
-              </p>
-            </div>
-
+            </button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.
+            </p>
           </div>
-          <div className="accordion-item" id="question9">
-            <NavLink className="accordion-link" to="#question9">
+
+          <div className="collapsible">
+            <button className="collapsible_button">
               Can I start working on my project before the event?
-              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
-            </NavLink>
-            <div className="answer">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Condimentum lacinia quis vel eros donec ac odio tempor orci.
-                Duis ultricies lacus sed turpis tincidunt id.
-              </p>
-            </div>
-
+            </button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.            </p>
           </div>
-          <div className="accordion-item" id="question10">
-            <NavLink className="accordion-link" to="#question10">
-               I didn’t find my question here, where can I clarify it?
-              <ion-icon className="up" name="chevron-up-outline"></ion-icon>
-              <ion-icon className="down" name="chevron-down-outline"></ion-icon>
-            </NavLink>
-            <div className="answer">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Condimentum lacinia quis vel eros donec ac odio tempor orci.
-                Duis ultricies lacus sed turpis tincidunt id.
-              </p>
-            </div>
 
+          <div className="collapsible">
+            <button className="collapsible_button">
+              I didn’t find my question here, where can I clarify it?
+            </button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.            </p>
           </div>
 
         </div>
-
+      </section>
+      <div className="bot">
+        We will following the Hack Code of Conduct,which can be found
+        <NavLink to="#">here</NavLink>
+        <br/>
+        <br/>
+        <br/>
       </div>
-    </section>
-    <div className="bot">
-      We will following the Hack Code of Conduct,which can be found <NavLink to="#">here</NavLink>
-      <br/>
-      <br/>
-      <br/>
-    </div>
-    <div className="bot1">
-      <NavLink to="#" className="but">ASK MORE QUESTIONS</NavLink>
-      <br/><br/><br/>
-    </div>
+      <div className="bot1">
+        <NavLink to="#" className="but">ASK MORE QUESTIONS</NavLink>
+        <br/><br/><br/>
       </div>
-    );
+    </div>);
   }
 }
 
