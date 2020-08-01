@@ -13,11 +13,10 @@ class FAQ extends Component {
       <section>
           <div className="collapsible">
             <button className="collapsible_button">
-              	When and where will it be hosted?
+             	When and where will it be hosted?
             </button>
             <p>
-              nowrap, Sequences of whitespace will collapse into a single whitespace
-              . Text will never wrap to the next line. The text continues on the same line until
+              It is hosted online on Devfolio platform on November.
                        </p>
           </div>
           <div className="collapsible">
@@ -25,11 +24,7 @@ class FAQ extends Component {
               How much will it cost me?
             </button>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-              qui officia deserunt mollit anim id est laborum.
+              It’s absolutely free!!!  Will cost you nothing but your interest and time!!!
             </p>
           </div>
 
@@ -38,47 +33,27 @@ class FAQ extends Component {
             	What are the requirements to be able to participate?
             </button>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-              qui officia deserunt mollit anim id est laborum.            </p>
+              Anyone who is interested can participate. There is no restriction!
+              If you are new to programming its alright, in this platform you will get to learn a lot!
+              </p>
           </div>
 
           <div className="collapsible">
             <button className="collapsible_button">
-              How do we submit our projects?
+              	How do we submit our projects?
             </button>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-              qui officia deserunt mollit anim id est laborum.            </p>
+              Details about the project will be entered on Devfolio dashboard and
+               github will be used to submit the code, also commits will be monitored.             </p>
           </div>
 
           <div className="collapsible">
             <button className="collapsible_button">
-            	Are there any rules to be followed?
+	           What is the theme?
             </button>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-              qui officia deserunt mollit anim id est laborum.            </p>
-          </div>
-
-          <div className="collapsible">
-            <button className="collapsible_button">
-              What is the theme?
-            </button>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-              qui officia deserunt mollit anim id est laborum.            </p>
+            It is an Open theme, but there will be tracks which u can use
+            if you want to and also stand a chance to win extra prize!!!            </p>
           </div>
 
           <div className="collapsible">
@@ -86,11 +61,7 @@ class FAQ extends Component {
               Can I apply if I don’t have a team?
             </button>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-              qui officia deserunt mollit anim id est laborum.            </p>
+              Yes, you can apply if you don’t have team, you can form a team.            </p>
           </div>
 
           <div className="collapsible">
@@ -98,11 +69,7 @@ class FAQ extends Component {
               When is the last date for registration?
             </button>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-              qui officia deserunt mollit anim id est laborum.
+              October 28th is the last date for registration.
             </p>
           </div>
 
@@ -111,11 +78,15 @@ class FAQ extends Component {
               Can I start working on my project before the event?
             </button>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-              qui officia deserunt mollit anim id est laborum.            </p>
+              Yes, you can work on the project before the event, but can submit only once the event starts.            </p>
+          </div>
+          <div className="collapsible">
+            <button className="collapsible_button">
+            	What is the maximum number of members in a team?
+            </button>
+            <p>
+              Max. 4
+            </p>
           </div>
 
           <div className="collapsible">
@@ -123,17 +94,14 @@ class FAQ extends Component {
               I didn’t find my question here, where can I clarify it?
             </button>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-              qui officia deserunt mollit anim id est laborum.            </p>
+              You can contact our Query Team through the following discord link.
+            </p>
           </div>
 
       </section>
       <div className="bot">
         We will following the Hack Code of Conduct,which can be found
-        <NavLink to="#">here</NavLink>
+        <NavLink to="#"> here</NavLink>
         <br/>
         <br/>
         <br/>
