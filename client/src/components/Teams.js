@@ -21,6 +21,19 @@ function Teams() {
         />
 
         <Card
+          source={curation}
+          name="Curation Crew"
+          members={[
+            "Chirag Vijay",
+            "Venkatakarthik",
+            "Divyanshi Pathak",
+            "Pranay Dey",
+            "Spandana HM",
+          ]}
+          content="All that glitters is always not gold, sometimes it's just a combination of words! Who proves it better than the Curation team? Our extremely hard-working Curation team knows what all goes into the grind behind every line of code and so to put it all together we find just the perfect words for every occasion. We try to ease your journey with us and thus we take you through the simplest path. So, now the only thing that confuses you is the time-stamp and not the content."
+        />
+
+        <Card
           source={developers}
           name="Development Crew"
           members={[
@@ -37,26 +50,6 @@ function Teams() {
         />
 
         <Card
-          source={sponsor}
-          name="Sponsorship Crew"
-          members={["Niran N"]}
-          content="Why invest when you can optimize , just like our  sponsors did! We are extremely thankful for all the amazing sponsors who made this dream come true! For all that we plan as a family, they nourished it as the roots. Amazing team leads to amazing results and this Hackathon is going to be none less than that."
-        />
-
-        <Card
-          source={curation}
-          name="Curation Crew"
-          members={[
-            "Chirag Vijay",
-            "Venkatakarthik",
-            "Divyanshi Pathak",
-            "Pranay Dey",
-            "Spandana HM",
-          ]}
-          content="All that glitters is always not gold, sometimes it's just a combination of words! Who proves it better than the Curation team? Our extremely hard-working Curation team knows what all goes into the grind behind every line of code and so to put it all together we find just the perfect words for every occasion. We try to ease your journey with us and thus we take you through the simplest path. So, now the only thing that confuses you is the time-stamp and not the content."
-        />
-
-        <Card
           source={design}
           name="Design Crew"
           members={[
@@ -70,6 +63,13 @@ function Teams() {
           Well, that's what our extremely talented design team aims for! You love it as soon as you see it and thus, you go for it with all your heart and soul.
           We reach the heart, we please the soul
           No matter how hard it looks, our designers know how to rock n roll!"
+        />
+
+        <Card
+          source={sponsor}
+          name="Sponsorship Crew"
+          members={["Niran N"]}
+          content="Why invest when you can optimize , just like our  sponsors did! We are extremely thankful for all the amazing sponsors who made this dream come true! For all that we plan as a family, they nourished it as the roots. Amazing team leads to amazing results and this Hackathon is going to be none less than that."
         />
 
         <Card
