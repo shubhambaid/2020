@@ -13,8 +13,9 @@ function Card(props) {
       <div
         className="column large4 medium4 small12 team-card"
         onClick={openmod1}
+        id={props.id}
       >
-        <img src={props.source} alt="" />
+        <img src={props.source} alt={props.name} />
         <p>{props.name}</p>
       </div>
       <div className="modal_container" id={props.name}>
@@ -30,6 +31,25 @@ function Card(props) {
           </div>
           <div class="page_container">
             <h2>{props.name}</h2>
+            <p> {props.content}</p>
+
+            {props.members.map((member) => {
+              return (
+                <div className="member">
+                  <img
+                    src={require("../images/teams/" +
+                      props.name +
+                      "/" +
+                      member +
+                      ".jpg")}
+                    member={member}
+                    className="member-img"
+                    alt=""
+                  />
+                  <p>{member}</p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
