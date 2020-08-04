@@ -1,1 +1,1 @@
-visit https://revahack.herokuapp.com/
+visit https://revahack.com/
