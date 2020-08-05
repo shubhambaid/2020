@@ -8,49 +8,42 @@ class Schedule extends Component {
         <h1 className="title ta_center">Schedule</h1><br /><br /><br /><br />
         <div id="circle1">
           <div className="ddr">
-            <div className="pclass">8:20 Friday</div>
-                    Registration Deadline
+            <div className="pclass">00:00 HOURS 31/08/2020</div>
+                    APPLICATION OPENS
                   </div>
         </div>
         <hr className="hrv" />
         <div id="circle2">
           <div className="ddl">
-            <div className="pclass">9:20 Thursday</div>
-                    Confirmation Email
+            <div className="pclass">12:00 HOURS 28/10/2020</div>
+                    APPLICATION CLOSES
                   </div>
         </div>
         <hr className="hrv" />
         <div id="circle3">
           <div className="ddr">
-            <div className="pclass">8:20 Friday</div>
-                    Opening Ceremony
+            <div className="pclass">12:00 HOURS 04/11/2020</div>
+                    HACKATHON STARTS
                   </div>
         </div>
         <hr className="hrv" />
         <div id="circle4">
           <div className="ddl">
-            <div className="pclass">9:28 Saturday</div>
-                    Webinars/Workshop
+            <div className="pclass">12:00 HOURS 07/11/2020</div>
+                    HACKATHON ENDS
                   </div>
         </div>
         <hr className="hrv" />
         <div id="circle5">
           <div className="ddr">
-            <div className="pclass">9:29 Sunday</div>
-                    Hackathon Starts
+            <div className="pclass">15:30 HOURS 11/11/2020</div>
+                    RESULTS ANNOUNCED
                   </div>
         </div>
-        <hr className="hrv" />
-        <div id="circle6">
-          <div className="ddl">
-            <br />
-            <div className="pclass">9:30 Monday</div>
-                      Presentation and Judging <br />
-                      Closing
-                  </div>
-        </div>
-        <br /><br />
-        <br /><br />
+
+        
+        <br/><br/>
+        <br/><br />
         <br /><br />
       </div>
     );
