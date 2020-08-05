@@ -29,7 +29,7 @@ class Navbar extends Component {
                     <NavLink to="/speakers" className="primary_white">
                         <i className="ms-Icon ms-Icon--FavoriteStarFill icon-large"></i>
                     </NavLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <NavLink to="/team" className="primary_white">
+                    <NavLink to="/teams" className="primary_white">
                         <i className="ms-Icon ms-Icon--TeamsLogo icon-large"></i>
                     </NavLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <NavLink to="/faqs" className="primary_white">
