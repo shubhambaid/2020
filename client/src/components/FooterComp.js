@@ -13,7 +13,7 @@ class Footer extends Component {
       <footer>
         <div className="column large12 medium12 small12" style={{background: "black"}}>
           <h2 className="ta_center title">The Crew</h2><br />
-          <h6 className="ta_center center large8 medium8 small10">There is a Crew which made REVA Hack possible through their sheer hardwork and a will to do something great</h6>
+          <h6 className="ta_center center large8 medium10 small12">There is a Crew which made REVA Hack possible through their sheer hardwork and a will to do something great</h6>
           <br /><br />
           <button className="large primary_blue">
             <NavLink to="/teams" className="butlink">Meet Our Crew</NavLink>

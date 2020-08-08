@@ -5,6 +5,7 @@ import slideImage from "../images/Final-01.png";
 class About extends Component {
   render() {
     
+/*
     const showslide1 = () =>{
       document.getElementById("slide1").style.display="block";
       document.getElementById("slide2").style.display="none";
@@ -23,31 +24,7 @@ class About extends Component {
       document.getElementById("slide2").style.display="none";
     }
 
-
-    return (
-      <section onLoad={showslide1} style={{padding: "0px 14px"}}>
-
-        <div className="column large10 medium12 small12 center" id="slide1">
-          <br /><br />
-          <div className="column large6 medium6 small12">
-            <h5>REVA Hack 2020</h5><br />
-            <h6 style={{fontSize: "18px", lineHeight: "1.25"}} className="ta_justify">
-              auctor augue mauris augue neque gravida in fermentum et sollicitudin ac orci
-              phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam 
-              nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl 
-              vel pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas 
-              sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh 
-              mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo 
-              elit at imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna 
-              id volutpat lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis 
-              aenean et tortor.
-            </h6><br /><br />
-            </div>
-          <div className="column large6 medium6 small0">
-            <img src={slideImage} alt="altimage" />
-          </div>
-          <br /><br />
-          <div className="column large10 medium10 small12 center">
+              <div className="column large10 medium10 small12 center">
             <button className="left icon circular" onClick={showslide3}>
               <i className="ms-Icon ms-Icon--Back slideicon"></i>
             </button>
@@ -55,75 +32,46 @@ class About extends Component {
               <i className="ms-Icon ms-Icon--Forward slideicon"></i>
             </button>
           </div>
+
+    */
+
+    return (
+      <section style={{padding: "0px 14px"}}>
+
+        <div className="column large10 medium12 small12 center">
+          <br /><br />
+          <div className="column large8 medium10 small0">
+            <br /><br /><br /><br />
+            <br /><br /><br /><br />
+            <h1 className="title ta_center">REVA Hack &lt;/&gt; 2020</h1><br />
+            <h6 style={{fontSize: "auto", lineHeight: "1.25"}} className="ta_justify">
+              REVA HACK &lt;/&gt; 2020 is a student community-focused virtual Hackathon, with an aim of encouraging and providing a platform for students to showcase their talents and innovative ideas in developing projects through coding and using latest technologies.
+
+              This is the right opportunity to explore your talents in coding and programming. Participants can work on an electrifying competition, building their idea, improving it as they put in the spirit of  good sportsmanship, having fun, and making friends along the way. There will be tons of action-packed events, prizes, and goodies. This would be a perfect stage to showcase your talents.
+
+              In light of the COVID-19 outbreak, we’re taking our hackathon virtual for the first time! Your well being is important to us. This means that you can participate and connect right from where you are.            
+            
+            </h6><br /><br />
+          </div>
+          <div className="column large8 medium10 small12">
+            <br /><br /><br /><br />
+            <br /><br /><br /><br />
+            <h1 className="title ta_center">Why REVA Hack &lt;/&gt; 2020?</h1><br />
+            <h6 style={{fontSize: "auto", lineHeight: "1.25"}} className="ta_justify">
+
+            REVA HACK &lt;/&gt; 2020 is an Online Hackathon, which means it provides you the opportunity to participate directly from your Home.
+            Hefty Cash prizes and goodies for the winners.
+            Cash prizes for tracks.
+            Certificate for all the participants.
+            A Golden opportunity to connect with all the participants and having a nice interaction with all the speakers.
+            
+            </h6><br /><br />
+          </div>
+          <br /><br />
           <br /><br />
           <br /><br />
         </div>
 
-
-      <div className="column large10 medium12 small12 center" id="slide2">
-        <br /><br />
-        <div className="column large6 medium6 small0">
-          <img src={slideImage} alt="altimage" />
-        </div>
-        <div className="column large6 medium6 small12">
-          <h5>REVA University</h5><br />
-          <h6 style={{fontSize: "18px", lineHeight: "1.25"}} className="ta_justify">
-            auctor augue mauris augue neque gravida in fermentum et sollicitudin ac orci
-            phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam 
-            nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl 
-            vel pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas 
-            sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh 
-            mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo 
-            elit at imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna 
-            id volutpat lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis 
-            aenean et tortor.
-          </h6><br /><br />
-        </div>
-        <br /><br />
-          <div className="column large10 medium10 small12 center">
-            <button className="left icon circular" onClick={showslide1}>
-              <i className="ms-Icon ms-Icon--Back slideicon"></i>
-            </button>
-            <button className="right icon circular" onClick={showslide3}>
-              <i className="ms-Icon ms-Icon--Forward slideicon"></i>
-            </button>
-          </div>
-          <br /><br />
-          <br /><br />
-      </div>
-        
-        
-      <div className="column large10 medium12 small12 center" id="slide3">
-        <br /><br />
-        <div className="column large6 medium6 small12">
-          <h5>School of C and IT</h5><br />
-          <h6 style={{fontSize: "18px", lineHeight: "1.25"}} className="ta_justify">
-            auctor augue mauris augue neque gravida in fermentum et sollicitudin ac orci
-            phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam 
-            nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl 
-            vel pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas 
-            sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh 
-            mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo 
-            elit at imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna 
-            id volutpat lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis 
-            aenean et tortor.
-          </h6><br /><br />
-        </div>
-        <div className="column large6 medium6 small0">
-          <img src={slideImage} alt="altimage" />
-        </div>
-        <br /><br />
-          <div className="column large10 medium10 small12 center">
-            <button className="left icon circular" onClick={showslide2}>
-              <i className="ms-Icon ms-Icon--Back slideicon"></i>
-            </button>
-            <button className="right icon circular" onClick={showslide1}>
-              <i className="ms-Icon ms-Icon--Forward slideicon"></i>
-            </button>
-          </div>
-          <br /><br />
-          <br /><br />
-      </div>
     </section>
 );
   }

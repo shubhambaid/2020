@@ -6,7 +6,7 @@ import comingSoon from "../images/coming-soon.png"
 function Speakers() {
   return (
     <div className="teams">
-      <h1>Speaker</h1>
+      <h1>Speakers</h1>
       <div>
         {/* <Card source={developers} name="Developers" />
         <Card source={design} name="Design" />
