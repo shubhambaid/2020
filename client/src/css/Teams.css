@@ -37,25 +37,21 @@
   background-color: #101010;
 }
 
-
 .page_container p {
   white-space: normal;
   line-height: 1.2rem;
   text-align: left;
 }
 
-
-.member{
+.member {
   display: inline-block;
   width: 25%;
   margin: 0.5rem 1rem;
 }
 
-.member p{
+.member p {
   text-align: center;
 }
-
-
 
 @media (max-width: 640px) {
   .teams * {
