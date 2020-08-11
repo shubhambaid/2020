@@ -3,16 +3,20 @@ import "../css/Teams.css";
 import Card from "./TeamCard";
 
 function Teams() {
-
+  
   const hideloader = () =>{
-    document.getElementById("loader").style.display="none";
+    document.getElementById("loadScreen").style.display="none";
   }
 
   return (
+    <section className="teams" onLoad={hideloader}>
 
-    <section id="content" onLoad={hideloader}>
+    <div id="loadScreen" class="modal_container" style={{display: "block", background: "#2e2e2eee",  backdropFilter: "blur(20px)"}}>
+        <div class="center middle">
+            <div class="indeterminate_progress_bar"></div>
+        </div>
+    </div>
 
-    <div className="teams">
       <h1>The Crew</h1>
       <div>
         <Card
@@ -89,8 +93,6 @@ function Teams() {
           A satisfied participant is always a way closer to the grand win and we take care and responsibility of taking you as closer to it as we can!"
         />
       </div>
-    </div>
-
     </section>
   );
 }

@@ -2,6 +2,16 @@
   font-family: "Barlow", sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 }
+
+.middle{
+  position: relative;
+  top: 50vh;
+  width: 90%;
+  float: right;
+  line-height: 40px;
+}
+.middle a{font-size: 24px;}
+
 .teams {
   width: 70%;
   display: block;

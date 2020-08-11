@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../css/About.css";
-import slideImage from "../images/Final-01.png";
+//import slideImage from "../images/Final-01.png";
 
 class About extends Component {
   render() {
