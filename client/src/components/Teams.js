@@ -1,19 +1,16 @@
-import React, { Suspense } from "react";
+import React from "react";
 import "../css/Teams.css";
 import Card from "./TeamCard";
 
 function Teams() {
 
-  const LazyLoader = () => {
-    return(
-      <p>
-        Individual Page Loader
-      </p>
-    );
+  const hideloader = () =>{
+    document.getElementById("loader").style.display="none";
   }
 
   return (
-    <Suspense fallback={LazyLoader}>
+
+    <section id="content" onLoad={hideloader}>
 
     <div className="teams">
       <h1>The Crew</h1>
@@ -93,7 +90,8 @@ function Teams() {
         />
       </div>
     </div>
-    </Suspense>
+
+    </section>
   );
 }
 
