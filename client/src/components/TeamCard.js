@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Card(props) {
+  const [mouseOver, setMouseOver] = useState(false);
+
   const openmod1 = () => {
     document.getElementById(props.name).style.display = "Block";
   };
@@ -13,9 +15,25 @@ function Card(props) {
       <div
         className="column large4 medium4 small12 team-card"
         onClick={openmod1}
-        id={props.id}
       >
-        <img src={props.source} alt={props.name} />
+        <div>
+          <img
+            onMouseOver={() => {
+              setMouseOver(true);
+              console.log(mouseOver);
+            }}
+            onMouseOut={() => {
+              setMouseOver(false);
+              console.log(mouseOver);
+            }}
+            src={
+              mouseOver
+                ? require("../images/gifs/" + props.source + ".gif")
+                : require("../images/team thumbnail/" + props.source + ".png")
+            }
+            alt={props.name}
+          />
+        </div>
         <p>{props.name}</p>
       </div>
       <div className="modal_container" id={props.name}>

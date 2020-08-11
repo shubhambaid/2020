@@ -1,11 +1,5 @@
 import React from "react";
 import "../css/Teams.css";
-import developers from "../images/developers.png";
-import design from "../images/design.png";
-import curation from "../images/curation.png";
-import query from "../images/query-management.png";
-import sponsor from "../images/sponsors.png";
-import organizer from "../images/organizers.png";
 import Card from "./TeamCard";
 
 function Teams() {
@@ -14,14 +8,14 @@ function Teams() {
       <h1>The Crew</h1>
       <div>
         <Card
-          source={organizer}
+          source="organizer"
           name="Organizing Crew"
           members={["Shivendra Saurav", "Sahil Chachra", "Shubham Baid"]}
           content="Codes are clumsy sometimes but the management should never be and to ensure this we have an amazing team of people who are the main stars behind the show! The extremely magnificent organization team knows how to handle it all. We handle it all so that the only thing that you now need to clean is your code. Code hassle-free and we'll manage it all."
         />
 
         <Card
-          source={curation}
+          source="curation"
           name="Curation Crew"
           members={[
             "Chirag Vijay",
@@ -34,7 +28,7 @@ function Teams() {
         />
 
         <Card
-          source={developers}
+          source="developers"
           name="Development Crew"
           members={[
             "Dharshan K",
@@ -50,7 +44,7 @@ function Teams() {
         />
 
         <Card
-          source={design}
+          source="design"
           name="Design Crew"
           members={[
             "Aman Srivastava",
@@ -66,14 +60,14 @@ function Teams() {
         />
 
         <Card
-          source={sponsor}
+          source="sponsor"
           name="Sponsorship Crew"
           members={["Niran N"]}
           content="Why invest when you can optimize , just like our  sponsors did! We are extremely thankful for all the amazing sponsors who made this dream come true! For all that we plan as a family, they nourished it as the roots. Amazing team leads to amazing results and this Hackathon is going to be none less than that."
         />
 
         <Card
-          source={query}
+          source="query"
           name="Query Management Crew"
           members={[
             "Deeksha Kottary",
