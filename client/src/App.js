@@ -1,5 +1,5 @@
-import React, { Component, Suspense, lazy } from "react";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import React, { Component} from "react";
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import "fdweb/fluent.css";
 import "fdweb/fluent-icons.css";
 import "./App.css";

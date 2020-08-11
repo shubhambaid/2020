@@ -1,9 +1,20 @@
-import React from "react";
+import React, { Suspense } from "react";
 import "../css/Teams.css";
 import Card from "./TeamCard";
 
 function Teams() {
+
+  const LazyLoader = () => {
+    return(
+      <p>
+        Individual Page Loader
+      </p>
+    );
+  }
+
   return (
+    <Suspense fallback={LazyLoader}>
+
     <div className="teams">
       <h1>The Crew</h1>
       <div>
@@ -82,6 +93,7 @@ function Teams() {
         />
       </div>
     </div>
+    </Suspense>
   );
 }
 

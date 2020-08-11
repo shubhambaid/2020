@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component, Suspense } from "react";
 import "../css/About.css";
-import slideImage from "../images/Final-01.png";
+//import slideImage from "../images/Final-01.png";
 
 class About extends Component {
   render() {
@@ -34,8 +34,16 @@ class About extends Component {
           </div>
 
     */
+    const LazyLoader = () => {
+      return(
+        <p>
+          Individual Page Loader
+        </p>
+      );
+    }
 
     return (
+      <Suspense fallback={LazyLoader}>
       <section style={{padding: "0px 14px"}}>
 
         <div className="column large10 medium12 small12 center">
@@ -73,6 +81,7 @@ class About extends Component {
         </div>
 
     </section>
+    </Suspense>
 );
   }
 }
