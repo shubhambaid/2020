@@ -13,7 +13,7 @@ function Teams() {
 
     <div id="loadScreen" class="modal_container" style={{display: "block", background: "#2e2e2eee",  backdropFilter: "blur(20px)"}}>
         <div class="center middle">
-            <div class="indeterminate_progress_bar"></div>
+            <div class="simple_progress_bar"></div>
         </div>
     </div>
 
