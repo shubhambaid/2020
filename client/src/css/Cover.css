@@ -9,6 +9,11 @@
   background-size: 800%;
   animation: gradientBG 10s ease-in-out 0s infinite alternate-reverse;
 }
+
+.cover *{
+  text-align: left;
+}
+
 @keyframes gradientBG {
 	0% {
         background-position: 0% 20%;
@@ -24,7 +29,6 @@
 .devfolio-btn{
 position: relative;
 bottom:30%;
-
 }
 
 .custom-control {
@@ -63,7 +67,7 @@ bottom:30%;
   font-weight: 600;
   padding: 12px 20px;
   text-align: center;
-  margin: 4rem auto;
+  margin: 4rem auto 4rem 10%;
 }
 
 #devfolio-apply-now:not([disabled]) {

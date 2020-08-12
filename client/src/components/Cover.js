@@ -44,7 +44,7 @@ function Cover(props) {
 
       {isMobile? <img src={coverImageMobile} alt="" /> : <img src={coverImageLarge} alt="" />}
 
-      <button id="devfolio-apply-now" className="devfolio-btn">
+      <button   id="devfolio-apply-now" className="devfolio-btn">
         <svg
           class="logo"
           xmlns="http://www.w3.org/2000/svg"
