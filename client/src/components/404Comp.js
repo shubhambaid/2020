@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import  Four0Four from "../images/404.png";
 
 class FourZeroFour extends Component{
 
@@ -21,7 +22,7 @@ class FourZeroFour extends Component{
   render(){
     return(
       <div className="page_container">
-        <div className="column large8 medium8 small12 center">
+        <div className="column large0 medium0 small0 center">
           <h1 style={{fontSize: "20vw"}} className="small0 ta_center"><span className="type">404</span></h1>
           <h1 style={{fontSize: "20vh"}} className="large0 medium0 ta_center"><span className="type">404</span></h1>
           <p className="ta_center">
@@ -33,6 +34,7 @@ class FourZeroFour extends Component{
           </button>
           <br /><br />
         </div>
+        <img src={Four0Four} alt="" />
       </div>
     );
   }
