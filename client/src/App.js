@@ -9,6 +9,7 @@ import Teams from "./components/Teams";
 import Speakers from "./components/Speakers";
 import FAQ from "./components/FAQ";
 import Home from "./components/HomeComp";
+import FourZeroFour from "./components/404Comp";
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route path="/teams" component={Teams} />
             <Route path="/coc" component={Home} />
             <Route path="/faqs" component={FAQ} />
+            <Route component={FourZeroFour} />
           </Switch>
           <Navbar />
       </Router>
