@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import "../Navbar.css";
 import { NavLink } from "react-router-dom";
+import home from "../images/home.png";
+import users from "../images/users.png";
+import information from "../images/information.png";
+import calendar from "../images/calendar.png";
 
 
 class Navbar extends Component {
@@ -9,32 +13,32 @@ class Navbar extends Component {
             <div>
 
                 <div className="pivot_menu primary_white small0" style={{position: "fixed", top: "0px", bottom: "0px", width: "80px", paddingTop: "30vh"}}>
-                    <NavLink to="/speakers" className="pivot_button">
-                        <i className="ms-Icon ms-Icon--FavoriteStarFill icon-large"></i>
+                    <NavLink to="/coc" className="pivot_button">
+                        <img src={home} alt="home"></img>
                     </NavLink><br /><br />
-                    <NavLink to="/teams" className="pivot_button">
-                        <i className="ms-Icon ms-Icon--TeamsLogo icon-large"></i>
+                  <NavLink to="/speakers" className="pivot_button">
+                        <img src={users} alt="users"></img>
                     </NavLink><br /><br />
                   <NavLink to="/faqs" className="pivot_button">
-                        <i className="ms-Icon ms-Icon--Contact icon-large"></i>
+                        <img src={information} alt="information"></img>
                     </NavLink><br /><br />
                     <NavLink to="/coc" className="pivot_button">
-                        <i className="ms-Icon ms-Icon--AirplaneSolid icon-large"></i>
+
                     </NavLink>
                 </div>
 
                 <div className="bottom_nav large0 medium0">
-                    <NavLink to="/speakers" className="primary_white">
-                        <i className="ms-Icon ms-Icon--FavoriteStarFill icon-large"></i>
+                    <NavLink to="/coc" className="primary_white">
+                        <img  src={home} alt="home" style={{height: 45 + 'px',width: 45 + 'px'}}></img>
                     </NavLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <NavLink to="/teams" className="primary_white">
-                        <i className="ms-Icon ms-Icon--TeamsLogo icon-large"></i>
+                    <NavLink to="/speakers" className="primary_white">
+                        <img  src={users} alt="users" style={{height: 45 + 'px',width: 45 + 'px'}}></img>
                     </NavLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <NavLink to="/faqs" className="primary_white">
-                        <i className="ms-Icon ms-Icon--Contact icon-large"></i>
+                        <img  src={information} alt="information" style={{height: 45 + 'px',width: 45 + 'px'}}></img>
                     </NavLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <NavLink to="/coc" className="primary_white">
-                        <i className="ms-Icon ms-Icon--AirplaneSolid icon-large"></i>
+
                     </NavLink>
                 </div>
 
