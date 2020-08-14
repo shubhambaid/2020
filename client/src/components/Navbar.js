@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import home from "../images/home.png";
 import users from "../images/users.png";
 import information from "../images/information.png";
-import calendar from "../images/calendar.png";
+//import calendar from "../images/calendar.png";
 
 
 class Navbar extends Component {
