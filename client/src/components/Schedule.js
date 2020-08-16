@@ -4,7 +4,8 @@ import "../css/Schedule.css";
 class Schedule extends Component {
   render() {
     return (
-      <div className="top-top">
+      <div className="top-top schedulebg">
+        <br /><br /><br /><br />
         <h1 className="title ta_center">Schedule</h1><br /><br /><br /><br />
         <div id="circle1">
           <div className="ddr">
@@ -41,10 +42,9 @@ class Schedule extends Component {
                   </div>
         </div>
 
-        
-        <br/><br/>
-        <br/><br />
-        <br /><br />
+        <br /><br /><br /><br />
+        <br /><br /><br /><br />
+
       </div>
     );
   }

@@ -36,7 +36,7 @@ class About extends Component {
     */
 
     return (
-      <section style={{padding: "0px 14px"}}>
+      <section style={{padding: "0px 14px"}} className="aboutbg">
 
         <div className="column large10 medium12 small12 center">
           <br /><br />
