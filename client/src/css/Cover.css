@@ -1,53 +1,45 @@
 .cover {
-  background-color: #1e1e1e;
   color: #fcfcfc;
-  text-align: center;
   height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  background-image:  linear-gradient(45deg, red, orange, yellow, orange, red);
-  background-size: 800%;
-  animation: gradientBG 10s ease-in-out 0s infinite alternate-reverse;
-}
-
-.cover *{
+  padding: 25vh 0 0 6rem;
   text-align: left;
+  background-image: url("../images/cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
 }
 
-@keyframes gradientBG {
-	0% {
-        background-position: 0% 20%;
-    }
-	50% {
-        background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 20%;
-	}
+.cover *:not(hr) {
+  margin-left: 2rem;
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
 }
 
-.devfolio-btn{
-position: relative;
-bottom:30%;
+.cover hr {
+  width: 250px;
+  border: 1px solid white;
+  color: #1d1d37;
 }
 
-.custom-control {
-  user-select: none;
-  top: 2%;
-  right: 2%;
-}
-.cover img {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-}
-.custom-switch .custom-control-label::before,
-.custom-control-label {
-  cursor: pointer;
+.cover * {
+  display: inline-block;
 }
 
+.cover p {
+  margin-left: 45px;
+}
 
+sup {
+  position: relative;
+  bottom: 4px;
+  right: 15px;
+}
 
+sub {
+  position: relative;
+  right: 99px;
+  top: 10px;
+}
 
 #devfolio-apply-now {
   -ms-flex-align: center;
@@ -67,7 +59,7 @@ bottom:30%;
   font-weight: 600;
   padding: 12px 20px;
   text-align: center;
-  margin: 4rem auto 4rem 10%;
+  margin-top: 5rem;
 }
 
 #devfolio-apply-now:not([disabled]) {
@@ -76,4 +68,59 @@ bottom:30%;
 
 #devfolio-apply-now:hover {
   background-color: #2954bf !important;
+}
+
+@media (max-width: 575.98px) {
+  .cover {
+    background-image: url("../images/cover-phone.png");
+  }
+
+  .cover,
+  .cover * {
+    text-align: center;
+    padding: 6rem 0 0;
+  }
+
+  .cover *:not(hr) {
+    margin-left: 0;
+  }
+
+  .cover p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cover hr {
+    display: none;
+    border: 1px solid white;
+    color: #1d1d37;
+  }
+
+  .cover h1 {
+    font-size: 2.3rem;
+  }
+
+  .cover h4 {
+    padding-top: 0px;
+    font-size: 1.5rem;
+  }
+
+  sup {
+    position: relative;
+    bottom: 4px;
+    left: 38px;
+  }
+
+  sub {
+    position: relative;
+    left: 5px;
+    top: 10px;
+  }
+
+  #devfolio-apply-now {
+    padding: 2px 2px;
+    width: 210px;
+    height: 60px;
+    margin: 4rem auto 0;
+  }
 }

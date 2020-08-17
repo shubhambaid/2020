@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import coverImageLarge from "../images/cover.png";
-import coverImageMobile from "../images/cover-mobile.png";
 import "../css/Cover.css";
 
 function Cover(props) {
@@ -42,9 +40,18 @@ function Cover(props) {
         </label>
       </div> */}
 
-      {isMobile? <img src={coverImageMobile} alt="" /> : <img src={coverImageLarge} alt="" />}
+      {/* {isMobile? <img src={coverImageMobile} alt="" /> : <img src={coverImageLarge} alt="" />} */}
 
-      <button   id="devfolio-apply-now" className="devfolio-btn">
+      <h1>
+        REVA HACK &#60;&#47;&#62;<sup>20</sup>
+        <sub>20</sub>
+      </h1>
+      <br />
+      <hr></hr>
+      <br />
+      <h4>Code for Change</h4>
+      <p>04-07 November</p>
+      <button id="devfolio-apply-now" className="devfolio-btn">
         <svg
           class="logo"
           xmlns="http://www.w3.org/2000/svg"
