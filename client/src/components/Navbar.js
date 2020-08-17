@@ -22,23 +22,17 @@ class Navbar extends Component {
                   <NavLink to="/faqs" className="pivot_button">
                         <img src={information} alt="information"></img>
                     </NavLink><br /><br />
-                    <NavLink to="/coc" className="pivot_button">
-
-                    </NavLink>
                 </div>
 
                 <div className="bottom_nav large0 medium0">
-                    <NavLink to="/coc" className="primary_white">
+                    <NavLink to="/coc" className="primary_white ta_center">
                         <img  src={home} alt="home" style={{height: 45 + 'px',width: 45 + 'px'}}></img>
-                    </NavLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <NavLink to="/speakers" className="primary_white">
+                    </NavLink>
+                    <NavLink to="/speakers" className="primary_white ta_center">
                         <img  src={users} alt="users" style={{height: 45 + 'px',width: 45 + 'px'}}></img>
-                    </NavLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <NavLink to="/faqs" className="primary_white">
+                    </NavLink>
+                    <NavLink to="/faqs" className="primary_white ta_center">
                         <img  src={information} alt="information" style={{height: 45 + 'px',width: 45 + 'px'}}></img>
-                    </NavLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <NavLink to="/coc" className="primary_white">
-
                     </NavLink>
                 </div>
 
