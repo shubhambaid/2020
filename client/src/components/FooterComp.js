@@ -24,7 +24,7 @@ class Footer extends Component {
           </button>
           <br /><br /><br /><br /><br /><br />
         </div>
-        <div className="column large12 medium12 small12 primary_inverted" style={{width: "100%", padding: "0px 10px"}}>
+        <div className="column large12 medium12 small12 primary_inverted" style={{width: "100vw", padding: "0px 10px"}}>
           <div className="column large1 medium1 small0"></div>
           <div className="column large6 medium6 small12"><br /><br />
             <h5>Get In Touch</h5><br />
