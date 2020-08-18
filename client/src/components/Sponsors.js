@@ -16,7 +16,7 @@ class Sponsors extends Component {
                 <div className="column large10 medium12 small12">
                   <h2 className="ta_center">Title</h2><br /><br />
                   <div className="column large3 medium4 small6">
-                      <img src={revaLogo} className="center" style={{width: "90%"}} alt="altimage" />
+                      <img src={revaLogo} className="center" style={{width: "100%"}} alt="altimage" />
                   </div>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -25,7 +25,7 @@ class Sponsors extends Component {
                   </div>
 
 
-              </div><br /><br /><br /><br /><br /><br /><br /><br />
+              </div><br /><br /><br /><br /><br /><br />
 
               <div className="column large10 medium12 small12">
                 <h2 className="ta_center">Gold</h2><br />
