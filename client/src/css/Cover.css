@@ -1,18 +1,22 @@
+
+
 .cover {
   color: #fcfcfc;
   height: 100vh;
-  padding: 25vh 0 0 6rem;
+  padding: 0vh 0 0 6rem;
   text-align: left;
   background-image: url("../images/cover.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
 }
 
 .cover *:not(hr) {
   margin-left: 2rem;
-  font-weight: 600;
   font-family: "Barlow", sans-serif;
+  font-weight: 600;
 }
 
 .cover hr {
@@ -70,6 +74,29 @@ sub {
   background-color: #2954bf !important;
 }
 
+.discord {
+  color: #7289d9;
+  width: 265.55px;
+  height: 48px;
+  margin-top: 2rem;
+  background-color: #fcfcfc;
+  display: flex;
+  padding: 1px 20px;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.discord span {
+  margin-left: 0;
+}
+
+.discord img {
+  width: 35px;
+  height: auto;
+  margin-left: 10px;
+}
+
 @media (max-width: 575.98px) {
   .cover {
     background-image: url("../images/cover-phone.png");
@@ -78,7 +105,7 @@ sub {
   .cover,
   .cover * {
     text-align: center;
-    padding: 6rem 0 0;
+    padding: 0rem 0 0;
   }
 
   .cover *:not(hr) {
@@ -118,9 +145,17 @@ sub {
   }
 
   #devfolio-apply-now {
-    padding: 2px 2px;
-    width: 210px;
     height: 60px;
-    margin: 4rem auto 0;
+    width: 265.55px;
+  }
+
+  a.discord,
+  #devfolio-apply-now {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .discord img {
+    margin-left: 10px;
   }
 }
