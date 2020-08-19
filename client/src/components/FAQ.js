@@ -6,7 +6,7 @@ class FAQ extends Component {
   render() {
     return (<div className="top">
       <div className="FAQ">
-        FAQ
+        Frequently Asked Questions
       </div>
       <br/>
       <br/>
@@ -107,7 +107,7 @@ class FAQ extends Component {
         <br/>
       </div>
       <div className="bot1">
-        <NavLink to="#" className="but">ASK MORE QUESTIONS</NavLink>
+        <a href="https://discord.gg/thubgqk" className="but">ASK MORE QUESTIONS</a>
         <br/><br/><br/>
       </div>
     </div>);
