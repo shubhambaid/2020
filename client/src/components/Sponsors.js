@@ -3,6 +3,7 @@ import "../Sponsors.css";
 import devfolio from "../images/sponsors/devfolio.png";
 import matic from "../images/sponsors/matic.png";
 import fold from "../images/sponsors/fold.png";
+import portis from "../images/sponsors/portis_logo.png";
 import revaLogo from "../images/sponsors/revaLogo.png";
 
 class Sponsors extends Component {
@@ -14,27 +15,31 @@ class Sponsors extends Component {
               <h1 className="ta_center title">Sponsors</h1>
               <br /><br />
                 <div className="column large10 medium12 small12">
-                  <h2 className="ta_center">Title</h2><br /><br />
+                  <h4 className="ta_center">Tree</h4><br /><br />
                   <div className="column large3 medium4 small6">
-                      <img src={revaLogo} className="center" style={{width: "100%"}} alt="altimage" />
+                      <a href="https://reva.edu.in/" target="blank"><img src={revaLogo} className="center" style={{width: "100%"}} alt="altimage" /></a>
                   </div>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <div className="column large3 medium4 small6">
-                      <img src={devfolio} className="center" style={{width: "100%"}} alt="altimage" />
+                    <a href="https://devfolio.co/" target="blank"><img src={devfolio} className="center" style={{width: "100%"}} alt="altimage" /></a>
                   </div>
 
 
-              </div><br /><br /><br /><br /><br /><br />
+              </div><br /><br /><br /><br /><br /><br /><br />
 
               <div className="column large10 medium12 small12">
-                <h2 className="ta_center">Gold</h2><br />
-                <div className="column large3 medium4 small6">
-                    <img src={fold} className="center" style={{width: "54%"}} alt="altimage" />
+                <h4 className="ta_center">Sapling</h4><br />
+                <div className="column large2 medium4 small6">
+                    <a href="https://fold.money/" target="blank"><img src={fold} className="center" style={{width: "54%"}} alt="altimage" /></a>
                 </div>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div className="column large3 medium4 small6">
-                    <img src={matic} className="center" style={{width: "90%"}} alt="altimage" />
+                <div className="column large2 medium4 small6">
+                    <a href="https://matic.network/" target="blank"><img src={matic} className="center" style={{width: "90%"}} alt="altimage" /></a>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div className="column large2 medium4 small6">
+                    <a href="https://portis.io/" target="blank"><img src={portis} className="center" style={{width: "90%"}} alt="altimage" /></a>
                 </div>
               </div><br /><br /><br /><br /><br /><br /><br /><br />
               <br /><br /><br />
