@@ -65,7 +65,7 @@ function Cover(props) {
           </svg>
           Apply with Devfolio
         </button>
-        <a href="https://discord.gg/2d3mrZM" target="blank" className="discord">
+        <a href="https://discord.gg/xBBJgXp" target="blank" className="discord">
           <span>Join Us On</span>
 
           <img src={discord} alt="discord" />
