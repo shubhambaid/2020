@@ -5,6 +5,8 @@ import matic from "../images/sponsors/matic.png";
 import fold from "../images/sponsors/fold.png";
 import portis from "../images/sponsors/portis_logo.png";
 import revaLogo from "../images/sponsors/revaLogo.png";
+import taskade from "../images/sponsors/taskade-circle-logo.png";
+
 
 class Sponsors extends Component {
     render() {
@@ -26,7 +28,7 @@ class Sponsors extends Component {
                   </div>
 
 
-              </div><br /><br /><br /><br /><br /><br /><br />
+              </div><br /><br /><br /><br /><br /><br /><br /><br />
 
               <div className="column large10 medium12 small12">
                 <h4 className="ta_center">Sapling</h4><br />
@@ -42,7 +44,14 @@ class Sponsors extends Component {
                     <a href="https://portis.io/" target="blank"><img src={portis} className="center" style={{width: "90%"}} alt="altimage" /></a>
                 </div>
               </div><br /><br /><br /><br /><br /><br /><br /><br />
-              <br /><br /><br />
+
+
+              <div className="column large10 medium12 small12">
+                <h4 className="ta_center">Shoot</h4><br />
+                <div className="column large2 medium4 small6">
+                    <a href="https://www.taskade.com/" target="blank"><img src={taskade} className="center" style={{width: "54%"}} alt="altimage" /></a>
+                </div>
+              </div><br /><br /><br /><br /><br /><br />
 
             </div>
           </div>
