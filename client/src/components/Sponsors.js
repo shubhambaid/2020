@@ -6,6 +6,7 @@ import fold from "../images/sponsors/fold.png";
 import portis from "../images/sponsors/portis_logo.png";
 import revaLogo from "../images/sponsors/revaLogo.png";
 import taskade from "../images/sponsors/taskade-circle-logo.png";
+import bugsee from "../images/sponsors/bugsee.png";
 
 
 class Sponsors extends Component {
@@ -50,6 +51,9 @@ class Sponsors extends Component {
                 <h4 className="ta_center">Shoot</h4><br />
                 <div className="column large2 medium4 small6">
                     <a href="https://www.taskade.com/" target="blank"><img src={taskade} className="center" style={{width: "54%"}} alt="altimage" /></a>
+                </div>
+                <div className="column large2 medium4 small6">
+                    <a href="https://www.bugsee.com/" target="blank"><img src={bugsee} className="center" style={{width: "54%"}} alt="altimage" /></a>
                 </div>
               </div><br /><br /><br /><br /><br /><br />
 
