@@ -7,6 +7,7 @@ import portis from "../images/sponsors/portis.svg";
 import revaLogo from "../images/sponsors/revaLogo.png";
 import taskade from "../images/sponsors/taskade-circle-logo.png";
 import bugsee from "../images/sponsors/bugsee.png";
+import gmc from "../images/sponsors/GMC.png";
 
 
 class Sponsors extends Component {
@@ -43,6 +44,10 @@ class Sponsors extends Component {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <div className="column large2 medium4 small6">
                     <a href="https://portis.io/" target="blank"><img src={portis} className="center" style={{width: "90%"}} alt="altimage" /></a>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div className="column large2 medium4 small6">
+                    <a href="https://givemycertificate.com/" target="blank"><img src={gmc} className="center" style={{width: "90%"}} alt="altimage" /></a>
                 </div>
               </div><br /><br /><br /><br /><br /><br /><br /><br />
 
