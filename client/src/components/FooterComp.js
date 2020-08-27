@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import "../css/Footer.css";
-import logo_facebook from "../images/logo_facebook.png";
-import logo_instagram from "../images/logo_instagram.png";
-import logo_twitter from "../images/logo_twitter.png";
-import logo_youtube from "../images/logo_youtube.png";
+import logo_instagram from "../images/instagram.png";
+import logo_youtube from "../images/youtube.png";
 import { NavLink } from "react-router-dom";
 
 
@@ -31,10 +29,8 @@ class Footer extends Component {
             <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="blank" className="butlink left">Code Of Conduct</a><br /><br />
             <a href="mailto:revahack@gmail.com" className="butlink left">Ask Questions</a><br /><br />
             <NavLink to="/faqs" className="butlink left">Frequently Asked Questions</NavLink><br /><br /><br /><br />
-            <img src={logo_facebook} className="icon left" alt="facebook" />
-            <img src={logo_instagram} className="icon left leftpadicon" alt="facebook" />
-            <img src={logo_twitter} className="icon left leftpadicon" alt="facebook" />
-            <img src={logo_youtube} className="icon left leftpadicon" alt="facebook" />
+            <img src={logo_instagram} className="icon left" alt="facebook" />
+            <img src={logo_youtube} className="icon left leftpadicon" alt="facebook"  style={{width:"60px"}}/>
             <br /><br /><br />
             <br /><br /><br />
           </div>

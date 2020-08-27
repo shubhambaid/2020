@@ -50,7 +50,7 @@ function Cover(props) {
         <br />
         <hr />
         <br />
-        <h4>Code for Change</h4>
+        <h4>Code for a Change</h4>
         <p>04-07 November</p>
         <button id="devfolio-apply-now" className="devfolio-btn">
           <svg

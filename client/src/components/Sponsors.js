@@ -3,7 +3,7 @@ import "../Sponsors.css";
 import devfolio from "../images/sponsors/devfolio.png";
 import matic from "../images/sponsors/matic.png";
 import fold from "../images/sponsors/fold.png";
-import portis from "../images/sponsors/portis_logo.png";
+import portis from "../images/sponsors/portis.svg";
 import revaLogo from "../images/sponsors/revaLogo.png";
 import taskade from "../images/sponsors/taskade-circle-logo.png";
 import bugsee from "../images/sponsors/bugsee.png";
@@ -20,7 +20,7 @@ class Sponsors extends Component {
                 <div className="column large10 medium12 small12">
                   <h4 className="ta_center">Tree</h4><br /><br />
                   <div className="column large3 medium4 small6">
-                      <a href="https://reva.edu.in/" target="blank"><img src={revaLogo} className="center" style={{width: "100%"}} alt="altimage" /></a>
+                      <a href="https://reva.edu.in/" target="blank"><img src={revaLogo} className="center" style={{width: "130%"}} alt="altimage" /></a>
                   </div>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

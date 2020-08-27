@@ -6,7 +6,7 @@ class Schedule extends Component {
     return (
       <div className="top-top schedulebg">
         <br /><br /><br /><br />
-        <h1 className="title ta_center">Schedule</h1><br /><br /><br /><br />
+        <h1 className="title ta_center">Process Flow</h1><br /><br /><br /><br />
         <div id="circle1">
           <div className="ddr">
             <div className="pclass">00:00 HOURS 31/08/2020</div>
@@ -16,7 +16,7 @@ class Schedule extends Component {
         <hr className="hrv" />
         <div id="circle2">
           <div className="ddl">
-            <div className="pclass">12:00 HOURS 28/10/2020</div>
+            <div className="pclass">12:00 HOURS 1/11/2020</div>
                     APPLICATION CLOSES
                   </div>
         </div>
