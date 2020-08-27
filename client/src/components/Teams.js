@@ -22,7 +22,7 @@ function Teams() {
         <Card
           source="organizer"
           name="Organizing Crew"
-          members={["Shivendra Saurav", "Sahil Chachra", "Shubham Baid"]}
+          members={["Shivendra Saurav", "Sahil Chachra", "Shubham Baid", "GC Satish","Kiran M"]}
           content="Codes are clumsy sometimes but the management should never be and to ensure this we have an amazing team of people who are the main stars behind the show! The extremely magnificent organization team knows how to handle it all. We handle it all so that the only thing that you now need to clean is your code. Code hassle-free and we'll manage it all."
         />
 
