@@ -42,7 +42,7 @@ function Cover(props) {
       </div> */}
 
       {/* {isMobile? <img src={coverImageMobile} alt="" /> : <img src={coverImageLarge} alt="" />} */}
-      <div style={{ position: "relative", top: "20vh" }}>
+      <div style={{ position: "relative", top: "38%", left: "-2%" }}>
         <h1>
           REVA HACK &#60;&#47;&#62;<sup>20</sup>
           <sub>20</sub>
@@ -50,7 +50,7 @@ function Cover(props) {
         <br />
         <hr />
         <br />
-        <h4>Code for Change</h4>
+        <h4>Code for a Change</h4>
         <p>04-07 November</p>
         <button id="devfolio-apply-now" className="devfolio-btn">
           <svg
@@ -65,7 +65,7 @@ function Cover(props) {
           </svg>
           Apply with Devfolio
         </button>
-        <a href="https://discord.com/" className="discord">
+        <a href="https://discord.gg/xBBJgXp" target="blank" className="discord">
           <span>Join Us On</span>
 
           <img src={discord} alt="discord" />
