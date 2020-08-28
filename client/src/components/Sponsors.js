@@ -20,12 +20,12 @@ class Sponsors extends Component {
               <br /><br />
                 <div className="column large10 medium12 small12">
                   <h4 className="ta_center">Tree</h4><br /><br />
-                  <div className="column large3 medium4 small6">
+                  <div className="column large3 medium4 small5">
                       <a href="https://reva.edu.in/" target="blank"><img src={revaLogo} className="center" style={{width: "130%"}} alt="altimage" /></a>
                   </div>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <div className="column large3 medium4 small6">
+                  <div className="column large3 medium4 small5">
                     <a href="https://devfolio.co/" target="blank"><img src={devfolio} className="center" style={{width: "100%"}} alt="altimage" /></a>
                   </div>
 
@@ -34,31 +34,31 @@ class Sponsors extends Component {
 
               <div className="column large10 medium12 small12">
                 <h4 className="ta_center">Sapling</h4><br />
-                <div className="column large2 medium4 small6">
+                <div className="column large2 medium4 small3">
                     <a href="https://fold.money/" target="blank"><img src={fold} className="center" style={{width: "54%"}} alt="altimage" /></a>
                 </div>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div className="column large2 medium4 small6">
+                <div className="column large2 medium4 small3">
                     <a href="https://matic.network/" target="blank"><img src={matic} className="center" style={{width: "90%"}} alt="altimage" /></a>
                 </div>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div className="column large2 medium4 small6">
+                <div className="column large2 medium4 small3">
                     <a href="https://portis.io/" target="blank"><img src={portis} className="center" style={{width: "90%"}} alt="altimage" /></a>
-                </div>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div className="column large2 medium4 small6">
-                    <a href="https://givemycertificate.com/" target="blank"><img src={gmc} className="center" style={{width: "90%"}} alt="altimage" /></a>
                 </div>
               </div><br /><br /><br /><br /><br /><br /><br /><br />
 
 
               <div className="column large10 medium12 small12">
                 <h4 className="ta_center">Shoot</h4><br />
-                <div className="column large2 medium4 small6">
+                <div className="column large2 medium4 small3">
                     <a href="https://www.taskade.com/" target="blank"><img src={taskade} className="center" style={{width: "54%"}} alt="altimage" /></a>
                 </div>
-                <div className="column large2 medium4 small6">
+                <div className="column large2 medium4 small3">
                     <a href="https://www.bugsee.com/" target="blank"><img src={bugsee} className="center" style={{width: "54%"}} alt="altimage" /></a>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div className="column large2 medium4 small3">
+                    <a href="https://givemycertificate.com/" target="blank"><img src={gmc} className="center" style={{width: "90%"}} alt="altimage" /></a>
                 </div>
               </div><br /><br /><br /><br /><br /><br />
 
