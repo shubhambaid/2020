@@ -3,12 +3,11 @@
 }
 
 .tracks {
-  padding: 3rem;
+  padding: 5rem 0 ;
   background-color: #1d1d37;
 }
 
 .tracks img {
-  width: 200px;
-  margin: 1rem;
+  width: 340px;
   border-radius: 10px;
 }
