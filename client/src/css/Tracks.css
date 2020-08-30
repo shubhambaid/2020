@@ -7,10 +7,6 @@
   background-color: #1d1d37;
 }
 
-.tracks div{
-  display: inline-block;
-}
-
 .tracks img {
   width: 340px;
   border-radius: 10px;
