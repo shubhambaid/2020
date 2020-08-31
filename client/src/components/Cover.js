@@ -8,6 +8,7 @@ function Cover(props) {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    
     if (window.outerWidth <= 768) setIsMobile(true);
   }, [isMobile]);
 
