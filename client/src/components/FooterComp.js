@@ -26,11 +26,17 @@ class Footer extends Component {
           <div className="column large1 medium1 small0"></div>
           <div className="column large6 medium6 small12"><br /><br />
             <h5>Get In Touch</h5><br />
-            <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="blank" className="butlink left">Code Of Conduct</a><br /><br />
-            <a href="mailto:revahack@gmail.com" className="butlink left">Ask Questions</a><br /><br />
-            <NavLink to="/faqs" className="butlink left">Frequently Asked Questions</NavLink><br /><br /><br /><br />
-            <img src={logo_instagram} className="icon left" alt="facebook" />
-            <img src={logo_youtube} className="icon left leftpadicon" alt="facebook"  style={{width:"60px"}}/>
+            <div className="column large6 medium6 small12">
+              <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="blank" className="butlink left">Code Of Conduct</a><br /><br />
+              <a href="mailto:revahack@gmail.com" className="butlink left">Ask Questions</a><br /><br />
+              <NavLink to="/faqs" className="butlink left">Frequently Asked Questions</NavLink><br /><br /><br /><br />
+            </div>
+            <div className="column large6 medium6 small12">
+              <a href="https://docs.google.com/document/d/1T8B9CiWOfzM4-Vd_r10pf4EepEtcz3K7xRQMEAIVpSE/edit?usp=sharing" target="blank" className="butlink left">Privacy Policy</a><br /><br />
+              <a href="https://docs.google.com/document/d/1WajDnuG4klRTYRl8gK8yYVgzkCnQoY73k3mbcWIKyj8/edit?usp=sharing" target="blank" className="butlink left">Terms and Conditions</a><br /><br />
+            </div>
+            <a href="http://instagram.com/dscreva"><img src={logo_instagram} className="icon left" alt="instagram" /></a>
+            <a href="https://www.youtube.com/channel/UCYHRdTN9GDqUS7rIFE1noBw?sub_confirmation=1"><img src={logo_youtube} className="icon left leftpadicon" alt="youtube"  style={{width:"60px"}}/></a>
             <br /><br /><br />
             <br /><br /><br />
           </div>
