@@ -8,6 +8,8 @@ import revaLogo from "../images/sponsors/revaLogo.png";
 import taskade from "../images/sponsors/taskade-circle-logo.png";
 import bugsee from "../images/sponsors/bugsee.png";
 import gmc from "../images/sponsors/GMC.png";
+import echo from "../images/sponsors/echoAR.png";
+import fluent from "../images/sponsors/fluent_logo.png";
 
 
 class Sponsors extends Component {
@@ -32,33 +34,40 @@ class Sponsors extends Component {
 
               </div><br /><br /><br /><br /><br /><br /><br /><br />
 
-              <div className="column large10 medium12 small12">
+              <div className="page_container">
                 <h4 className="ta_center">Sapling</h4><br />
-                <div className="column large2 medium4 small3">
+                <div className="column large2 medium4 small6">
                     <a href="https://fold.money/" target="blank"><img src={fold} className="center" style={{width: "54%"}} alt="altimage" /></a>
+                    <br /><br />
                 </div>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div className="column large2 medium4 small3">
+                <div className="column large2 medium4 small6">
                     <a href="https://matic.network/" target="blank"><img src={matic} className="center" style={{width: "90%"}} alt="altimage" /></a>
+                    <br /><br />
                 </div>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div className="column large2 medium4 small3">
+                <div className="column large2 medium4 small6">
                     <a href="https://portis.io/" target="blank"><img src={portis} className="center" style={{width: "90%"}} alt="altimage" /></a>
                 </div>
-              </div><br /><br /><br /><br /><br /><br /><br /><br />
+                <div className="column large2 medium4 small6">
+                    <a href="https://portis.io/" target="blank"><img src={echo} className="center" style={{width: "90%"}} alt="altimage" /></a>
+                </div>
+              </div><br /><br /><br /><br /><br /><br />
 
 
-              <div className="column large10 medium12 small12">
+              <div className="page_container">
                 <h4 className="ta_center">Shoot</h4><br />
-                <div className="column large2 medium4 small3">
+                <div className="column large2 medium3 small6">
                     <a href="https://www.taskade.com/" target="blank"><img src={taskade} className="center" style={{width: "54%"}} alt="altimage" /></a>
+                    <br /><br />
                 </div>
-                <div className="column large2 medium4 small3">
+                <div className="column large2 medium3 small6">
                     <a href="https://www.bugsee.com/" target="blank"><img src={bugsee} className="center" style={{width: "54%"}} alt="altimage" /></a>
+                    <br /><br />
                 </div>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <div className="column large2 medium4 small3">
+                <div className="column large2 medium3 small6">
                     <a href="https://givemycertificate.com/" target="blank"><img src={gmc} className="center" style={{width: "90%"}} alt="altimage" /></a>
+                </div>
+                <div className="column large2 medium3 small6">
+                    <a href="https://fluentdesignforweb.github.io/" target="blank"><img src={fluent} className="center" style={{width: "90%"}} alt="altimage" /></a>
                 </div>
               </div><br /><br /><br /><br /><br /><br />
 

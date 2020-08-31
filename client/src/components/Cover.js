@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/Cover.css";
 import discord from "../images/discord.svg";
+import DSC from "../images/sponsors/DSC.png";
 
 function Cover(props) {
   // const [mode, setMode] = useState("dark");
@@ -51,7 +52,10 @@ function Cover(props) {
         <hr />
         <br />
         <h4>Code for a Change</h4>
-        <p>04-07 November</p>
+        <p>04-07 November</p><br/><br/>
+
+        <img src={DSC} className="associate" alt="DSC" />
+
         <button id="devfolio-apply-now" className="devfolio-btn">
           <svg
             class="logo"

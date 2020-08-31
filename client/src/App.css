@@ -5,3 +5,11 @@ body{
 a::before, a:hover::before, .pivot_button::before, .pivot_button:hover::before{
   background: transparent;
 }
+.associate{
+  width: 460px;
+}
+@media (max-width: 480px){
+  .associate{
+    width: 86vw;
+  }
+}
