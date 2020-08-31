@@ -36,7 +36,7 @@ class Footer extends Component {
           </div>
           <div className="column large5 medium5 small12">
           <br /><br /><br />
-            <iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15542.89373821591!2d77.6346617!3d13.1166989!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdee225fe28f600f6!2sREVA+University!5e0!3m2!1sen!2sin!4v1522677320198" style={{border: "none", borderRadius: "10px", height: "276px", width: "100%"}} allowfullscreen="yes"></iframe>
+            <iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15542.89373821591!2d77.6346617!3d13.1166989!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdee225fe28f600f6!2sREVA+University!5e0!3m2!1sen!2sin!4v1522677320198" style={{border: "none", borderRadius: "10px", height: "276px", width: "100%"}} allowFullScreen="yes"></iframe>
           <br /><br /><br />
           </div>
         </div>
