@@ -32,8 +32,8 @@ class Footer extends Component {
               <NavLink to="/faqs" className="butlink left">Frequently Asked Questions</NavLink><br /><br /><br /><br />
             </div>
             <div className="column large6 medium6 small12">
-              <a href="https://docs.google.com/document/d/1T8B9CiWOfzM4-Vd_r10pf4EepEtcz3K7xRQMEAIVpSE/edit?usp=sharing" target="blank" className="butlink left">Privacy Policy</a><br /><br />
-              <a href="https://docs.google.com/document/d/1WajDnuG4klRTYRl8gK8yYVgzkCnQoY73k3mbcWIKyj8/edit?usp=sharing" target="blank" className="butlink left">Terms and Conditions</a><br /><br />
+              <a href="https://drive.google.com/file/d/1SGnEapEDtIa1CCme0pWj50rya04lv4cS/view?usp=sharing" target="blank" className="butlink left">Privacy Policy</a><br /><br />
+              <a href="https://drive.google.com/file/d/1lWA6AXr3kuzDpleTOC2GOlr1f-C1nEpn/view?usp=sharing" target="blank" className="butlink left">Terms and Conditions</a><br /><br />
             </div>
             <a href="http://instagram.com/dscreva"><img src={logo_instagram} className="icon left" alt="instagram" /></a>
             <a href="https://www.youtube.com/channel/UCYHRdTN9GDqUS7rIFE1noBw?sub_confirmation=1"><img src={logo_youtube} className="icon left leftpadicon" alt="youtube"  style={{width:"60px"}}/></a>
