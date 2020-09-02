@@ -8,7 +8,6 @@ function Cover(props) {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    
     if (window.outerWidth <= 768) setIsMobile(true);
   }, [isMobile]);
 
@@ -17,37 +16,7 @@ function Cover(props) {
   }
 
   return (
-    <div
-      className="cover"
-      // style={
-      //   mode === "dark"
-      //     ? { backgroundColor: " #1e1e1e" }
-      //     : { backgroundColor: "#fcfcfc" }
-      // }
-    >
-      {/* <div
-        class="custom-control custom-switch"
-        style={{ position: "absolute" }}
-      >
-        <input
-          type="checkbox"
-          class="custom-control-input"
-          id="customSwitch1"
-        />
-        <label
-          class="custom-control-label"
-          for="customSwitch1"
-          onClick={() => {
-            mode === "dark" ? setMode("light") : setMode("light");
-            mode === "light" ? setMode("dark") : setMode("light");
-          }}
-          style={mode === "dark" ? { color: " #fcfcfc" } : { color: "#1e1e1e" }}
-        >
-          Light
-        </label>
-      </div> */}
-
-      {/* {isMobile? <img src={coverImageMobile} alt="" /> : <img src={coverImageLarge} alt="" />} */}
+    <div className="cover">
       <div style={{ position: "relative", top: "38%", left: "-2%" }}>
         <h1>
           REVA HACK &#60;&#47;&#62;<sup>20</sup>
@@ -57,13 +26,15 @@ function Cover(props) {
         <hr />
         <br />
         <h4>Code for a Change</h4>
-        <p>04-07 November</p><br/><br/>
+        <p>04-07 November</p>
+        <br />
+        <br />
 
         <img src={DSC} className="associate" alt="DSC" />
         
         <button id="devfolio-apply-now" className="devfolio-btn" onClick={awd}>
           <svg
-            class="logo"
+            className="logo"
             xmlns="http://www.w3.org/2000/svg"
             fill="#fff"
             viewBox="0 0 115.46 123.46"

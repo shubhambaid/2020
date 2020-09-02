@@ -6,6 +6,7 @@ import Cover from "./Cover";
 import About from "./About";
 import Schedule from "./Schedule";
 import Tracks from "./Tracks";
+import Bounties from "./Bounties"
 
 class Home extends Component {
   render() {
@@ -17,15 +18,15 @@ class Home extends Component {
       <section className="home" onLoad={hideloader}>
         <div
           id="loadScreenhome"
-          class="modal_container"
+          className="modal_container"
           style={{
             display: "block",
             background: "#2e2e2eee",
             backdropFilter: "blur(20px)",
           }}
         >
-          <div class="center middle">
-            <div class="simple_progress_bar"></div>
+          <div className="center middle">
+            <div className="simple_progress_bar"></div>
           </div>
         </div>
 
@@ -34,6 +35,7 @@ class Home extends Component {
           <About />
           <Tracks />
           <Prizes />
+          <Bounties/>
           <Schedule />
           <Sponsors />
           <Footer />
