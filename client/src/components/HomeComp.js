@@ -6,6 +6,7 @@ import Cover from "./Cover";
 import About from "./About";
 import Schedule from "./Schedule";
 import Tracks from "./Tracks";
+import Bounties from "./Bounties"
 
 class Home extends Component {
   render() {
@@ -34,6 +35,7 @@ class Home extends Component {
           <About />
           <Tracks />
           <Prizes />
+          <Bounties/>
           <Schedule />
           <Sponsors />
           <Footer />
