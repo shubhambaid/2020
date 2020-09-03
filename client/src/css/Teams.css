@@ -53,11 +53,11 @@
   text-align: left;
 }
 
-.member {
+/*.member {
   display: inline-block;
   width: 25%;
   margin: 0.5rem 1rem;
-}
+}*/
 
 .member p {
   text-align: center;
