@@ -12,7 +12,7 @@ function Cover(props) {
   }, [isMobile]);
 
   function awd (){
-    window.open("https://devfolio.co/REVAhack/dashboard");
+    window.open("https://revahack.devfolio.co");
   }
 
   return (
