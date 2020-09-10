@@ -5,7 +5,7 @@ import "../css/Prizes.css";
 class Prizes extends Component {
   render() {
     return (
-      <div>
+      <div className="prizes">
         <div className="primary_inverted" style={{padding: "0px 10px"}}>
         <br /><br /><br /><br /><br /><br />
           <h1 className="ta_center title">Prizes and Incentives</h1>
