@@ -1,4 +1,6 @@
-
+body{
+  overflow-x: hidden;
+}
 
 .cover {
   color: #fcfcfc;

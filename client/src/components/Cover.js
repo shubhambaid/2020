@@ -13,7 +13,7 @@ function Cover(props) {
 
   return (
     <div className="cover">
-      <div style={{ position: "relative", top: "38%", left: "-2%" }}>
+      <div style={{ position: "relative", top: "25%", left: "-2%" }}>
         <h1>
           REVA HACK &#60;&#47;&#62;<sup>20</sup>
           <sub>20</sub>

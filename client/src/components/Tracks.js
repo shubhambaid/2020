@@ -25,48 +25,66 @@ export default function Tracks() {
     <div className="tracks">
       <h1>Tracks</h1>
 
-      <img
-        src={isHealthHover ? healthHover : health}
-        onMouseOver={() => setIsHealthHover(true)}
-        onMouseOut={() => setIsHealthHover(false)}
-        alt=""
-      />
+      <div>
+        <img
+          src={isHealthHover ? healthHover : health}
+          onMouseOver={() => setIsHealthHover(true)}
+          onMouseOut={() => setIsHealthHover(false)}
+          alt=""
+        />
+        <p>Health</p>
+      </div>
 
-      <img
-        src={isVrHover ? vrHover : vr}
-        alt=""
-        onMouseOver={() => setIsVrHover(true)}
-        onMouseOut={() => setIsVrHover(false)}
-      />
+      <div>
+        <img
+          src={isVrHover ? vrHover : vr}
+          alt=""
+          onMouseOver={() => setIsVrHover(true)}
+          onMouseOut={() => setIsVrHover(false)}
+        />
+        <p>Virtual Reality</p>
+      </div>
 
-      <img
-        src={isCloudHover ? cloudHover : cloud}
-        alt=""
-        onMouseOver={() => setIsCloudHover(true)}
-        onMouseOut={() => setIsCloudHover(false)}
-      />
+      <div>
+        <img
+          src={isCloudHover ? cloudHover : cloud}
+          alt=""
+          onMouseOver={() => setIsCloudHover(true)}
+          onMouseOut={() => setIsCloudHover(false)}
+        />
+        <p>Cloud Computing</p>
+      </div>
 
       <br />
+      <div>
+        <img
+          src={isIotHover ? iotHover : iot}
+          alt=""
+          onMouseOver={() => setIsIotHover(true)}
+          onMouseOut={() => setIsIotHover(false)}
+        />
+        <p>Internet of Things</p>
+      </div>
 
-      <img
-        src={isIotHover ? iotHover : iot}
-        alt=""
-        onMouseOver={() => setIsIotHover(true)}
-        onMouseOut={() => setIsIotHover(false)}
-      />
-      <img
-        src={isMlHover ? mlHover : ml}
-        alt=""
-        onMouseOver={() => setIsMlHover(true)}
-        onMouseOut={() => setIsMlHover(false)}
-      />
+      <div>
+        <img
+          src={isMlHover ? mlHover : ml}
+          alt=""
+          onMouseOver={() => setIsMlHover(true)}
+          onMouseOut={() => setIsMlHover(false)}
+        />
+        <p>Machine Learning</p>
+      </div>
 
-      <img
-        src={isAiHover ? aiHover : ai}
-        alt=""
-        onMouseOver={() => setIsAiHover(true)}
-        onMouseOut={() => setIsAiHover(false)}
-      />
+      <div>
+        <img
+          src={isAiHover ? aiHover : ai}
+          alt=""
+          onMouseOver={() => setIsAiHover(true)}
+          onMouseOut={() => setIsAiHover(false)}
+        />
+        <p>Artificial Intelligence</p>
+      </div>
     </div>
   );
 }
