@@ -5,8 +5,13 @@ import "../css/Prizes.css";
 class Prizes extends Component {
   render() {
     return (
+<<<<<<< HEAD
       <div>
         <div className="primary_inverted toop">
+=======
+      <div className="prizes">
+        <div className="primary_inverted" style={{padding: "0px 10px"}}>
+>>>>>>> 169fd9816e9e1d94a1f5acbf1dd34c9d629b2ea7
         <br /><br /><br /><br /><br /><br />
           <h1 className="ta_center title">Prizes and Incentives</h1>
           <br /><br /><br /><br />

@@ -1,9 +1,40 @@
-.butlink{
-    color: #fcfcfc;
-    font-size: 22px;
+.butlink {
+  color: #fcfcfc;
+  font-size: 22px;
 }
-.butlink:hover::before{
-    display: none;
-}
-.leftpadicon{margin-left: 40px;}
 
+.butlink:hover::before {
+  display: none;
+}
+
+.leftpadicon {
+  margin-left: 40px;
+}
+
+footer{
+  position: static;
+  margin-left: 40px;
+}
+
+.crewbg h1{
+  font-size: 3rem;
+}
+
+.crewbg h6 {
+  font-size: 1.5rem;
+}
+
+iframe {
+  margin: auto;
+}
+
+.crewbg{
+  padding: 4vh 1rem 5vh;
+}
+
+@media (max-width: 640px) {
+  footer {
+    padding: 0 0.2rem;
+    margin-left: 0;
+  }
+}

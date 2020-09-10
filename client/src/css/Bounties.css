@@ -1,34 +1,52 @@
-.bounties{
+.bounties {
+  background-color: #1d1d37;
+  padding: 4vh 0 4vh;
+  margin-left: 40px;
+}
+.bounties * {
+  text-align: center;
+}
+
+.bounties div {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  margin: 2rem;
+}
+
+.bounties a {
+  position: relative;
+  bottom: 5rem;
+  padding: 0.5rem 2rem;
+  background-color: #fcfcfc;
+  color: black;
+  border-radius: 30px;
+}
+
+.bounties a:hover {
+  background-color: black;
+  color: #fcfcfc;
+}
+
+.bounties img {
+  width: 100%;
+}
+
+.bounties h1{
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 640px) {
+  .bounties {
     background-color: #1d1d37;
-   padding: 8vh 0  4vh;
-}
-.bounties *{
-    text-align: center;
-}
+    padding: 2vh 0 2vh;
+    margin-left: 0px;
+  }
 
-.bounties div{
-    position: relative;
-    display: inline-block;
-    width: 25%;
-    margin: 2rem;
+  .bounties div {
+    width: 70%;
+    margin: auto;
+  }
+
+  
 }
-
-.bounties a{
-    position: relative;
-    bottom: 5rem;
-    padding: 0.5rem 2rem;
-    background-color: #fcfcfc;
-    color:black;
-    border-radius: 30px;
-}
-
-.bounties a:hover{
-    background-color: black;
-    color:#fcfcfc;
-}
-
-.bounties img{
-    width: 100%;
-}
-
-
