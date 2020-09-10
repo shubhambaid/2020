@@ -35,7 +35,7 @@ class Home extends Component {
           <About />
           <Tracks />
           <Prizes />
-          <Bounties/>
+          <Bounties />
           <Schedule />
           <Sponsors />
           <Footer />
