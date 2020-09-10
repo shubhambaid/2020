@@ -48,7 +48,7 @@ class Sponsors extends Component {
                     <a href="https://portis.io/" target="blank"><img src={portis} className="center" style={{width: "90%"}} alt="altimage" /></a>
                 </div>
                 <div className="column large2 medium4 small6">
-                    <a href="https://portis.io/" target="blank"><img src={echo} className="center" style={{width: "90%"}} alt="altimage" /></a>
+                    <a href="https://www.echoar.xyz/" target="blank"><img src={echo} className="center" style={{width: "90%"}} alt="altimage" /></a>
                 </div>
               </div><br /><br /><br /><br /><br /><br />
 

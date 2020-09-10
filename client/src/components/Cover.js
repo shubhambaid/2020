@@ -11,6 +11,10 @@ function Cover(props) {
     if (window.outerWidth <= 768) setIsMobile(true);
   }, [isMobile]);
 
+  function awd (){
+    window.open("https://devfolio.co/REVAhack/dashboard");
+  }
+
   return (
     <div className="cover">
       <div style={{ position: "relative", top: "25%", left: "-2%" }}>
@@ -28,8 +32,8 @@ function Cover(props) {
         <br />
 
         <img src={DSC} className="associate" alt="DSC" />
-
-        <button id="devfolio-apply-now" className="devfolio-btn">
+        
+        <button id="devfolio-apply-now" className="devfolio-btn" onClick={awd}>
           <svg
             className="logo"
             xmlns="http://www.w3.org/2000/svg"

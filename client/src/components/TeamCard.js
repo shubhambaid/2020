@@ -49,11 +49,11 @@ function Card(props) {
           </div>
           <div class="page_container">
             <h2>{props.name}</h2>
-            <p> {props.content}</p>
+            <p style={{textAlign: "justify"}}> {props.content}</p>
 
             {props.members.map((member) => {
               return (
-                <div className="member">
+                <div className="column large4 medium4 small12">
                   <img
                     src={require("../images/teams/" +
                       props.name +
@@ -62,9 +62,10 @@ function Card(props) {
                       ".jpg")}
                     member={member}
                     className="member-img"
+                    style={{padding: "10px"}}
                     alt=""
                   />
-                  <p>{member}</p>
+                  <p style={{textAlign: "center", fontSize: "22px"}}>{member}</p>
                 </div>
               );
             })}
