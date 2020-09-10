@@ -5,6 +5,7 @@
 .tracks {
   padding: 12vh 0;
   background-color: #1d1d37;
+  margin-left: 40px;
 }
 
 .tracks img {
@@ -12,6 +13,10 @@
   border-radius: 10px;
 }
 
+.tracks div p{
+  font-size: 1.5rem;
+  margin-top: 8px;
+}
 
 .tracks div{
   display: inline-block;
@@ -19,8 +24,17 @@
 
 @media (max-width: 640px) {
 
+  .tracks {
+    padding: 5vh 0;
+    margin-left: 0px;
+  }
   .tracks div p{
     font-size: 1.5rem;
+  }
+
+  .tracks img {
+    width: 200px;
+
   }
 
 }

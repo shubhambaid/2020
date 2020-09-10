@@ -1,4 +1,4 @@
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -8,6 +8,7 @@ a::before, a:hover::before, .pivot_button::before, .pivot_button:hover::before{
 .associate{
   width: 460px;
 }
+
 @media (max-width: 480px){
   .associate{
     width: 86vw;

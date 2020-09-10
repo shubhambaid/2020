@@ -1,22 +1,116 @@
-.primary_inverted{background: #131313;}
-.crewbg{
-  background-image: linear-gradient(135deg, rgba(90, 90, 90, 0.33) 0%, rgba(90, 90, 90, 0.33) 14.286%,rgba(77, 77, 77, 0.33) 14.286%, rgba(77, 77, 77, 0.33) 28.572%,rgba(64, 64, 64, 0.33) 28.572%, rgba(64, 64, 64, 0.33) 42.858%,rgba(51, 51, 51, 0.33) 42.858%, rgba(51, 51, 51, 0.33) 57.144%,rgba(38, 38, 38, 0.33) 57.144%, rgba(38, 38, 38, 0.33) 71.43%,rgba(25, 25, 25, 0.33) 71.43%, rgba(25, 25, 25, 0.33) 85.716%,rgba(12, 12, 12, 0.33) 85.716%, rgba(12, 12, 12, 0.33) 100.002%),linear-gradient(45deg, rgb(13, 13, 13) 0%, rgb(13, 13, 13) 14.286%,rgb(21, 21, 21) 14.286%, rgb(21, 21, 21) 28.572%,rgb(30, 30, 30) 28.572%, rgb(30, 30, 30) 42.858%,rgb(38, 38, 38) 42.858%, rgb(38, 38, 38) 57.144%,rgb(46, 46, 46) 57.144%, rgb(46, 46, 46) 71.43%,rgb(55, 55, 55) 71.43%, rgb(55, 55, 55) 85.716%,rgb(63, 63, 63) 85.716%, rgb(63, 63, 63) 100.002%);
+.primary_inverted {
+  background: #131313;
+}
+
+.schedule{
+  margin-left: 40px;
+}
+
+.crewbg {
+  background-image: linear-gradient(
+      135deg,
+      rgba(90, 90, 90, 0.33) 0%,
+      rgba(90, 90, 90, 0.33) 14.286%,
+      rgba(77, 77, 77, 0.33) 14.286%,
+      rgba(77, 77, 77, 0.33) 28.572%,
+      rgba(64, 64, 64, 0.33) 28.572%,
+      rgba(64, 64, 64, 0.33) 42.858%,
+      rgba(51, 51, 51, 0.33) 42.858%,
+      rgba(51, 51, 51, 0.33) 57.144%,
+      rgba(38, 38, 38, 0.33) 57.144%,
+      rgba(38, 38, 38, 0.33) 71.43%,
+      rgba(25, 25, 25, 0.33) 71.43%,
+      rgba(25, 25, 25, 0.33) 85.716%,
+      rgba(12, 12, 12, 0.33) 85.716%,
+      rgba(12, 12, 12, 0.33) 100.002%
+    ),
+    linear-gradient(
+      45deg,
+      rgb(13, 13, 13) 0%,
+      rgb(13, 13, 13) 14.286%,
+      rgb(21, 21, 21) 14.286%,
+      rgb(21, 21, 21) 28.572%,
+      rgb(30, 30, 30) 28.572%,
+      rgb(30, 30, 30) 42.858%,
+      rgb(38, 38, 38) 42.858%,
+      rgb(38, 38, 38) 57.144%,
+      rgb(46, 46, 46) 57.144%,
+      rgb(46, 46, 46) 71.43%,
+      rgb(55, 55, 55) 71.43%,
+      rgb(55, 55, 55) 85.716%,
+      rgb(63, 63, 63) 85.716%,
+      rgb(63, 63, 63) 100.002%
+    );
   background-attachment: fixed;
 }
-.aboutbg{
-  background-image: linear-gradient(229deg, rgba(86, 86, 86,0.04) 0%, rgba(86, 86, 86,0.04) 50%,rgba(169, 169, 169,0.04) 50%, rgba(169, 169, 169,0.04) 71%,rgba(251, 251, 251,0.04) 71%, rgba(251, 251, 251,0.04) 100%),linear-gradient(229deg, rgba(86, 86, 86,0.04) 0%, rgba(86, 86, 86,0.04) 56%,rgba(169, 169, 169,0.04) 56%, rgba(169, 169, 169,0.04) 67%,rgba(251, 251, 251,0.04) 67%, rgba(251, 251, 251,0.04) 100%),linear-gradient(319deg, rgba(86, 86, 86,0.04) 0%, rgba(86, 86, 86,0.04) 4%,rgba(169, 169, 169,0.04) 4%, rgba(169, 169, 169,0.04) 75%,rgba(251, 251, 251,0.04) 75%, rgba(251, 251, 251,0.04) 100%),linear-gradient(274deg, rgb(14,14,14),rgb(14,14,14));
+.aboutbg {
+  background-image: linear-gradient(
+      229deg,
+      rgba(86, 86, 86, 0.04) 0%,
+      rgba(86, 86, 86, 0.04) 50%,
+      rgba(169, 169, 169, 0.04) 50%,
+      rgba(169, 169, 169, 0.04) 71%,
+      rgba(251, 251, 251, 0.04) 71%,
+      rgba(251, 251, 251, 0.04) 100%
+    ),
+    linear-gradient(
+      229deg,
+      rgba(86, 86, 86, 0.04) 0%,
+      rgba(86, 86, 86, 0.04) 56%,
+      rgba(169, 169, 169, 0.04) 56%,
+      rgba(169, 169, 169, 0.04) 67%,
+      rgba(251, 251, 251, 0.04) 67%,
+      rgba(251, 251, 251, 0.04) 100%
+    ),
+    linear-gradient(
+      319deg,
+      rgba(86, 86, 86, 0.04) 0%,
+      rgba(86, 86, 86, 0.04) 4%,
+      rgba(169, 169, 169, 0.04) 4%,
+      rgba(169, 169, 169, 0.04) 75%,
+      rgba(251, 251, 251, 0.04) 75%,
+      rgba(251, 251, 251, 0.04) 100%
+    ),
+    linear-gradient(274deg, rgb(14, 14, 14), rgb(14, 14, 14));
   background-attachment: fixed;
 }
-.schedulebg{
-  background-image: repeating-linear-gradient(90deg, rgba(243, 243, 243,0.05) 0px, rgba(243, 243, 243,0.05) 1px,transparent 1px, transparent 10px),repeating-linear-gradient(0deg, rgba(243, 243, 243,0.05) 0px, rgba(243, 243, 243,0.05) 1px,transparent 1px, transparent 10px),repeating-linear-gradient(0deg, rgba(243, 243, 243,0.08) 0px, rgba(243, 243, 243,0.08) 1px,transparent 1px, transparent 27px),repeating-linear-gradient(90deg, rgba(243, 243, 243,0.08) 0px, rgba(243, 243, 243,0.08) 1px,transparent 1px, transparent 27px),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+.schedulebg {
+  background-image: repeating-linear-gradient(
+      90deg,
+      rgba(243, 243, 243, 0.05) 0px,
+      rgba(243, 243, 243, 0.05) 1px,
+      transparent 1px,
+      transparent 10px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(243, 243, 243, 0.05) 0px,
+      rgba(243, 243, 243, 0.05) 1px,
+      transparent 1px,
+      transparent 10px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(243, 243, 243, 0.08) 0px,
+      rgba(243, 243, 243, 0.08) 1px,
+      transparent 1px,
+      transparent 27px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(243, 243, 243, 0.08) 0px,
+      rgba(243, 243, 243, 0.08) 1px,
+      transparent 1px,
+      transparent 27px
+    ),
+    linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
   background-attachment: fixed;
 }
-.hed{
+.hed {
   padding-bottom: 200px;
   font-size: 79px;
-
 }
-.hrv{
+.hrv {
   background-color: black;
   width: 1px;
   height: 170px;
@@ -24,445 +118,446 @@
   margin: 0 auto 0 auto;
 }
 
-body{
+body {
   background: black;
 }
 #circle1 {
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin:0 auto 0 auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 0 auto;
 }
 #circle2 {
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin:0 auto 0 auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 0 auto;
 }
 #circle3 {
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin:0 auto 0 auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 0 auto;
 }
 #circle4 {
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin:0 auto 0 auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 0 auto;
 }
 #circle5 {
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin:0 auto 0 auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 0 auto;
 }
 #circle6 {
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin:0 auto 0 auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 0 auto;
 }
-p{
+p {
   color: white;
   white-space: nowrap;
   margin-top: 0;
 }
-h6{
+h6 {
   color: white;
   margin-top: 0;
   margin-right: 0;
 }
-.ddr{
+.ddr {
   white-space: nowrap;
   margin-left: 80px;
   color: white;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: 24px;
 }
-.ddl{
+.ddl {
   white-space: nowrap;
   margin-right: 300px;
   margin-left: -300px;
   text-align: right;
   color: white;
-  font-family: 'Source Code Pro', monospace;
-  font-size:24px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 24px;
 }
-@media (max-width:760px) {
-  .hed{
+@media (max-width: 760px) {
+  .hed {
     padding-bottom: 130px;
     font-size: 45px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
   }
-  .hrv{
+  .hrv {
     background-color: black;
     width: 1px;
     height: 100px;
     background: white;
     margin: 0 auto 0 auto;
   }
-  .top-top{
+  .top-top {
     padding-top: 100px;
     margin-left: 0;
-
   }
-  body{
+  body {
     background: black;
   }
   #circle1 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 0 auto;
   }
   #circle2 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 0 auto;
   }
   #circle3 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 0 auto;
   }
   #circle4 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 0 auto;
   }
   #circle5 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 0 auto;
   }
   #circle6 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 0 auto;
   }
-  p{
+  p {
     color: white;
     white-space: nowrap;
     margin-top: 0;
   }
-  h6{
+  h6 {
     color: white;
     margin-top: 0;
     margin-right: 0;
   }
-  .ddr{
+  .ddr {
     white-space: nowrap;
     margin-left: 50px;
     color: white;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
     font-size: 20px;
   }
-  .ddl{
+  .ddl {
     white-space: nowrap;
     margin-right: 300px;
     margin-left: -240px;
     text-align: right;
     color: white;
-    font-family: 'Source Code Pro', monospace;
-    font-size:20px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
   }
 }
-@media (max-width:615px) {
-  .hed{
+@media (max-width: 615px) {
+  .hed {
     padding-bottom: 70px;
     font-size: 30px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
   }
-  .hrv{
+  .hrv {
     background-color: black;
     width: 1px;
     height: 100px;
     background: white;
     margin: 0 auto 0 auto;
   }
-  .top-top{
+  .top-top {
     padding-top: 100px;
     margin-left: 0;
-
   }
-  body{
+  body {
     background: black;
   }
   #circle1 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle2 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle3 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle4 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle5 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle6 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
-  p{
+  p {
     color: white;
     white-space: nowrap;
     margin-top: 0;
   }
-  h6{
+  h6 {
     color: white;
     margin-top: 0;
     margin-right: 0;
   }
-  .ddr{
+  .ddr {
     white-space: nowrap;
     margin-left: 30px;
     color: white;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
     font-size: 15px;
   }
-  .ddl{
+  .ddl {
     white-space: nowrap;
     margin-right: 300px;
     margin-left: -200px;
     text-align: right;
     color: white;
-    font-family: 'Source Code Pro', monospace;
-    font-size:15px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 15px;
   }
 }
-@media (max-width:460px) {
-  .hed{
+@media (max-width: 460px) {
+  .hed {
     padding-bottom: 70px;
     font-size: 30px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
   }
-  .hrv{
+  .hrv {
     background-color: black;
     width: 1px;
     height: 100px;
     background: white;
     margin: 0 auto 0 auto;
   }
-  .top-top{
+  .top-top {
     padding-top: 100px;
     margin-left: 0;
-
   }
-  body{
+  body {
     background: black;
   }
   #circle1 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle2 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle3 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle4 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle5 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle6 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
-  p{
+  p {
     color: white;
     white-space: nowrap;
     margin-top: 0;
   }
-  h6{
+  h6 {
     color: white;
     margin-top: 0;
     margin-right: 0;
   }
-  .ddr{
+  .ddr {
     white-space: nowrap;
     margin-left: 30px;
     color: white;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
     font-size: 10px;
   }
-  .ddl{
+  .ddl {
     white-space: nowrap;
     margin-right: 300px;
     margin-left: -170px;
     text-align: right;
     color: white;
-    font-family: 'Source Code Pro', monospace;
-    font-size:10px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 10px;
   }
-  .pclass{
+  .pclass {
     font-size: 13px;
-    white-space:nowrap;
-
+    white-space: nowrap;
   }
 }
-@media (max-width:395px) {
-  .hed{
+@media (max-width: 395px) {
+  .hed {
     padding-bottom: 70px;
     font-size: 30px;
     margin: 0 auto 0 auto;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
   }
-  .hrv{
+  .hrv {
     background-color: black;
     width: 1px;
     height: 100px;
     background: white;
     margin: 0 auto 0 auto;
   }
-  .top-top{
+  .top-top {
     padding-top: 100px;
     margin-left: 0;
-
   }
-  body{
+  body {
     background: black;
   }
   #circle1 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle2 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle3 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle4 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle5 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
   #circle6 {
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      margin:0 auto 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto 0 auto;
   }
-  p{
+  p {
     color: white;
     white-space: nowrap;
     margin-top: 0;
   }
-  h6{
+  h6 {
     color: white;
     margin-top: 0;
     margin-right: 0;
   }
-  .ddr{
+  .ddr {
     white-space: nowrap;
     margin-left: 30px;
     color: white;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
     font-size: 10px;
   }
-  .ddl{
+  .ddl {
     white-space: nowrap;
     margin-right: 300px;
     margin-left: -140px;
     text-align: right;
     color: white;
-    font-family: 'Source Code Pro', monospace;
-    font-size:10px;
-  }
-  .pclass{
+    font-family: "Source Code Pro", monospace;
     font-size: 10px;
-    white-space:nowrap;
-
   }
+  .pclass {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 640px) {
+.schedule{
+  margin-left: 0;
+}
+
 }

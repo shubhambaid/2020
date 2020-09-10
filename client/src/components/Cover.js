@@ -22,8 +22,9 @@ function Cover(props) {
         <hr />
         <br />
         <h4>Code for a Change</h4>
+        <br/>
+        <br/>
         <p>04-07 November</p>
-        <br />
         <br />
 
         <img src={DSC} className="associate" alt="DSC" />

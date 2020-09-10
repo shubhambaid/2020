@@ -1,6 +1,7 @@
 .bounties {
   background-color: #1d1d37;
   padding: 4vh 0 4vh;
+  margin-left: 40px;
 }
 .bounties * {
   text-align: center;
@@ -39,10 +40,11 @@
   .bounties {
     background-color: #1d1d37;
     padding: 2vh 0 2vh;
+    margin-left: 0px;
   }
 
   .bounties div {
-    width: 85%;
+    width: 70%;
     margin: auto;
   }
 

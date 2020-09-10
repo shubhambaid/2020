@@ -15,7 +15,7 @@ import fluent from "../images/sponsors/fluent_logo.png";
 class Sponsors extends Component {
     render() {
         return (
-            <div>
+            <div className="sponsors">
             <div className="primary_inverted" style={{padding: "0px 10px"}}>
             <br /><br /><br /><br /><br /><br />
               <h1 className="ta_center title">Sponsors</h1>
