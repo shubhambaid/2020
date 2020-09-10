@@ -260,12 +260,10 @@ h1, h2, h3, h4, h5, h6, p, pre, a{
 button{
   font-family: 'Barlow';
 }
-<<<<<<< HEAD
-=======
+
 
 @media (max-width: 640px) {
   .prizes{
   margin-left: 0px;
   }
 }
->>>>>>> 169fd9816e9e1d94a1f5acbf1dd34c9d629b2ea7
