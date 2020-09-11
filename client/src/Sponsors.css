@@ -2,8 +2,30 @@
   margin-left: 40px;
 }
 
+.Sapling{
+  padding-top: 17vh;
+}
+.Shoot{
+  padding-top: 17vh;
+  padding-bottom: 17vh;
+}
+
+
+
 @media (max-width: 640px) {
   .sponsors {
     margin-left: 0;
+
   }
+  
+  .Sapling{
+    padding-top: 50px;
+  }
+  .Shoot{
+    padding-top: 50px;
+    padding-bottom: 15vh;
+  }
+ 
+  
+  
 }
