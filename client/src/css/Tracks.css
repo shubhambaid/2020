@@ -24,6 +24,10 @@
 
 @media (max-width: 640px) {
 
+  .tracks div{
+    display: block;
+  }
+
   .tracks {
     padding: 5vh 0;
     margin-left: 0px;
