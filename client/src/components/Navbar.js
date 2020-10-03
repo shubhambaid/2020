@@ -15,12 +15,15 @@ class Navbar extends Component {
                 <div className="pivot_menu primary_white small0" style={{ position: "fixed", top: "0px", bottom: "0px", width: "80px", paddingTop: "30vh" }}>
                     <NavLink to="/coc" className="pivot_button">
                         <img src={home} alt="home"></img>
+                        <span style={{fontSize: "12px"}}>Home</span>
                     </NavLink><br /><br />
                     <NavLink to="/speakers" className="pivot_button">
                         <img src={users} alt="users"></img>
+                        <span style={{fontSize: "12px"}}>Speakers</span>
                     </NavLink><br /><br />
                     <NavLink to="/faqs" className="pivot_button">
                         <img src={information} alt="information"></img>
+                        <span style={{fontSize: "12px"}}>FAQs</span>
                     </NavLink><br /><br />
                 </div>
 
