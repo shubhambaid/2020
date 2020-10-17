@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.prizes{
+  margin-left: 40px;
+}
+
 .top{
   color: white;
   font-family: 'Source Code Pro', monospace;
@@ -80,6 +84,10 @@ table{
     font-size: 17px;
     line-height: 0;
     padding-left: 30px;
+  }
+  .toop{
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   hr{
     width: 30%;
@@ -205,8 +213,11 @@ table{
     line-height: 0;
     padding-left: 30px;
   }
+  .toop{
+    padding-top:-100px;
+  }
   hr{
-    width: 30%;
+    width: 0%;
     background: white;
     margin: 0 auto 0 auto;
   }
@@ -221,6 +232,7 @@ table{
   .titles{
     width: 100px;
     height: 100px;
+    padding-top: -100px;
   }
   .but{
     background-color: blue;
@@ -247,4 +259,11 @@ h1, h2, h3, h4, h5, h6, p, pre, a{
 }
 button{
   font-family: 'Barlow';
+}
+
+
+@media (max-width: 640px) {
+  .prizes{
+  margin-left: 0px;
+  }
 }

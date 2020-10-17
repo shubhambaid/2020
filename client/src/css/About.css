@@ -1,12 +1,41 @@
-#slide1, #slide2, #slide3{
+#slide1,
+#slide2,
+#slide3 {
   display: none;
 }
 
-.slideicon{
+.slideicon {
   font-size: 20px;
   padding: 3px;
 }
 
-button.primary_blue{
+button.primary_blue {
   background: #3770ff;
+}
+
+.aboutbg {
+  padding: 8vh 0;
+  margin-left: 40px;
+}
+
+.aboutbg h1 {
+  font-size: 3rem;
+}
+
+.aboutbg h6 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .aboutbg {
+    margin-left: 0px;
+  }
+
+  .aboutbg{
+    padding: 4vh 1.5rem;
+  }
+
+  .aboutbg h6 {
+    font-size: 1.4rem;
+  }
 }

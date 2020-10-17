@@ -3,14 +3,16 @@
   src: url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 }
 
-.middle{
+.middle {
   position: relative;
   top: 50vh;
   width: 90%;
   float: right;
   line-height: 40px;
 }
-.middle a{font-size: 24px;}
+.middle a {
+  font-size: 24px;
+}
 
 .teams {
   width: 70%;
@@ -63,8 +65,28 @@
   text-align: center;
 }
 
+.modal_content {
+  margin-top: 8%;
+}
+
+@media (max-width: 639px) and (min-width: 280px) {
+  .small12 {
+    width: 100%;
+  }
+}
+
 @media (max-width: 640px) {
   .teams * {
     text-align: center;
+  }
+  .modal_content {
+    width: 95%;
+  }
+  .member {
+    display: inline-block;
+    width: 70%;
+  }
+  .modal_content {
+    margin-top: 20%;
   }
 }

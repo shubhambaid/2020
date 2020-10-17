@@ -11,13 +11,10 @@ function Cover(props) {
     if (window.outerWidth <= 768) setIsMobile(true);
   }, [isMobile]);
 
-  function awd (){
-    window.open("https://revahack.devfolio.co");
-  }
 
   return (
     <div className="cover">
-      <div style={{ position: "relative", top: "38%", left: "-2%" }}>
+      <div style={{ position: "relative", top: "25%", left: "-2%" }}>
         <h1>
           REVA HACK &#60;&#47;&#62;<sup>20</sup>
           <sub>20</sub>
@@ -26,13 +23,14 @@ function Cover(props) {
         <hr />
         <br />
         <h4>Code for a Change</h4>
+        <br/>
+        <br/>
         <p>04-07 November</p>
-        <br />
         <br />
 
         <img src={DSC} className="associate" alt="DSC" />
         
-        <button id="devfolio-apply-now" className="devfolio-btn" onClick={awd}>
+        <button id="devfolio-apply-now" className="devfolio-btn">
           <svg
             className="logo"
             xmlns="http://www.w3.org/2000/svg"

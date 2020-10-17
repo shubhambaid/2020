@@ -1,0 +1,20 @@
+.speakers{
+    padding: 1rem;
+
+}
+
+.speakers * {
+    text-align: center;
+}
+
+.speakers img{
+    width: 50%;
+}
+
+@media (max-width: 640px) {
+
+.speakers img{
+    width: 80%;
+}
+
+}

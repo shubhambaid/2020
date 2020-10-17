@@ -1,4 +1,6 @@
-
+body {
+  overflow-x: hidden;
+}
 
 .cover {
   color: #fcfcfc;
@@ -29,9 +31,7 @@
   display: inline-block;
 }
 
-.cover p {
-  margin-left: 45px;
-}
+
 
 sup {
   position: relative;
@@ -135,12 +135,12 @@ sub {
   sup {
     position: relative;
     bottom: 4px;
-    left: 38px;
+    left: 33px;
   }
 
   sub {
     position: relative;
-    left: 5px;
+    left: 0px;
     top: 10px;
   }
 
